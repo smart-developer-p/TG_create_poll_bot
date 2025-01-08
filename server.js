@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 require('dotenv').config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 require('./bot')
 
@@ -13,6 +13,8 @@ app.use(express.json());
 
 // Path to the polls.json file
 const pollsFilePath = path.join(__dirname, 'polls.json');
+
+app.get("/", () => console.log("called api"))
 
 // Endpoint to add a new poll/quiz
 app.post('/addPoll', (req, res) => {

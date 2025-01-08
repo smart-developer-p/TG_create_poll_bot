@@ -1,6 +1,6 @@
-const { Telegraf } = require('telegraf');
-const fs = require('fs');
-require('dotenv').config();
+const { Telegraf } = require("telegraf");
+const fs = require("fs");
+require("dotenv").config();
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const INTERVAL_MS = process.env.INTERVAL_MS || 3600000; // Set interval to 1 hour (3600000 ms)
@@ -8,11 +8,11 @@ const INTERVAL_MS = process.env.INTERVAL_MS || 3600000; // Set interval to 1 hou
 // Replace with your bot token
 const bot = new Telegraf(BOT_TOKEN);
 
-// Load polls from JSON file
+let interval;
 
 // Function to send a random poll
 const sendRandomPoll = (ctx) => {
-    const polls = JSON.parse(fs.readFileSync('polls.json', 'utf8'));
+    const polls = JSON.parse(fs.readFileSync("polls.json", "utf8"));
     const randomPoll = polls[Math.floor(Math.random() * polls.length)];
 
     if (randomPoll.type === "regular") {
@@ -29,25 +29,38 @@ const sendRandomPoll = (ctx) => {
 };
 
 // Start command to initialize the bot
-bot.command('start', (ctx) => {
-    ctx.reply('Poll bot started! I will send polls regularly.');
+bot.command("start", (ctx) => {
+    ctx.reply("Poll bot started! I will send polls regularly.");
 });
 
 // Command to send a poll immediately
-bot.command('poll', (ctx) => {
+bot.command("poll", (ctx) => {
     sendRandomPoll(ctx);
 });
 
 // Regularly send polls
-bot.on('text', (ctx) => {
-    if (ctx.chat && ctx.chat.type === 'supergroup') {
-        ctx.reply('Poll bot started! I will send polls regularly.');
+bot.command("/startautopoll", (ctx) => {
+    if (interval) return
+    if (ctx.chat && ctx.chat.type === "supergroup") {
+        console.log("starting auto poll")
+        ctx.reply("Poll bot started! I will send polls regularly.");
         sendRandomPoll(ctx);
-        setInterval(() => {
+        interval = setInterval(() => {
             sendRandomPoll(ctx);
         }, INTERVAL_MS);
     }
 });
 
+bot.command('/stopautopoll', (ctx) => {
+    if (!interval) return
+    if (ctx.chat && ctx.chat.type === "supergroup") {
+        console.log("stopping auto poll")
+        ctx.reply("Poll bot stopped!");
+        clearInterval(interval)
+        interval = undefined
+    }
+
+})
+
 bot.launch();
-console.log('Bot is running...');
+console.log("Bot is running...");
