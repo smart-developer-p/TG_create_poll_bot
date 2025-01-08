@@ -1,0 +1,2349 @@
+[
+    {
+        "type": "regular",
+        "question": "What is the most important aspect of Ethereum for you?",
+        "options": [
+            "Decentralization",
+            "Security",
+            "Scalability",
+            "Smart Contracts"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the native cryptocurrency of Ethereum?",
+        "options": [
+            "Bitcoin",
+            "Ethereum",
+            "ETH",
+            "USDT"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "regular",
+        "question": "What are your thoughts on Ethereum 2.0?",
+        "options": [
+            "Excited",
+            "Neutral",
+            "Not Interested"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is not an Ethereum token standard?",
+        "options": [
+            "ERC-20",
+            "ERC-721",
+            "ERC-1155",
+            "ERC-50"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "How often do you interact with smart contracts?",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Rarely"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum scaling solution uses rollups?",
+        "options": [
+            "Optimism",
+            "zkSync",
+            "Arbitrum",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "What is your primary reason for using Ethereum?",
+        "options": [
+            "Investment",
+            "DeFi",
+            "Smart Contracts",
+            "NFTs"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum upgrade aims to reduce gas fees?",
+        "options": [
+            "The Merge",
+            "EIP-1559",
+            "Sharding",
+            "Ethereum 2.0"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum will overtake Bitcoin in the future?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is a DAO?",
+        "options": [
+            "Decentralized Application",
+            "Decentralized Autonomous Organization",
+            "Distributed Application",
+            "None of the above"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about NFTs?",
+        "options": [
+            "Love them",
+            "Neutral",
+            "Not interested"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does the term ‘staking’ in Ethereum mean?",
+        "options": [
+            "Locking tokens to participate in network consensus",
+            "Mining tokens",
+            "Sending tokens",
+            "Creating smart contracts"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Are you interested in learning about DeFi?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum token is primarily used for staking?",
+        "options": [
+            "BTC",
+            "ETH",
+            "ADA",
+            "SOL"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "What is your favorite Ethereum-based DEX?",
+        "options": [
+            "Uniswap",
+            "SushiSwap",
+            "PancakeSwap",
+            "Other"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is Ethereum gas used for?",
+        "options": [
+            "Paying transaction fees",
+            "Executing smart contracts",
+            "Storing data",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Do you prefer using a hardware wallet or a software wallet for Ethereum?",
+        "options": [
+            "Hardware wallet",
+            "Software wallet",
+            "Both",
+            "Neither"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which layer of Ethereum handles the transaction processing?",
+        "options": [
+            "Layer 1",
+            "Layer 2",
+            "Layer 3",
+            "Off-chain"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you consider participating in an Ethereum-based governance vote?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum upgrade will move Ethereum from proof-of-work to proof-of-stake?",
+        "options": [
+            "The Merge",
+            "Sharding",
+            "EIP-1559",
+            "Ethereum 2.0"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How familiar are you with Ethereum's smart contract programming language, Solidity?",
+        "options": [
+            "Very familiar",
+            "Somewhat familiar",
+            "Not familiar at all"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the maximum supply of Ethereum?",
+        "options": [
+            "21 Million",
+            "No Maximum Supply",
+            "100 Million",
+            "1 Billion"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Which Ethereum-based game have you played?",
+        "options": [
+            "Axie Infinity",
+            "Decentraland",
+            "Gods Unchained",
+            "Other"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is a smart contract?",
+        "options": [
+            "A contract written by a lawyer",
+            "A contract that runs automatically when conditions are met",
+            "A contract in cryptocurrency",
+            "A contract with a fixed price"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "How often do you follow Ethereum news?",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Rarely"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which DeFi protocol allows users to lend and borrow Ethereum?",
+        "options": [
+            "Aave",
+            "Uniswap",
+            "Compound",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Would you be willing to stake your Ethereum for rewards?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the name of Ethereum's decentralized storage system?",
+        "options": [
+            "IPFS",
+            "Arweave",
+            "Filecoin",
+            "All of the above"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum will continue to grow in the next decade?",
+        "options": [
+            "Yes",
+            "No",
+            "Uncertain"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is an example of a decentralized exchange (DEX)?",
+        "options": [
+            "Uniswap",
+            "Binance",
+            "Coinbase",
+            "Kraken"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you prefer using centralized exchanges or decentralized exchanges?",
+        "options": [
+            "Centralized",
+            "Decentralized",
+            "Neither",
+            "Both"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is an Ethereum Layer 2 solution?",
+        "options": [
+            "Polygon",
+            "Uniswap",
+            "Aave",
+            "Ethereum 2.0"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about Ethereum’s current gas fees?",
+        "options": [
+            "Too high",
+            "Affordable",
+            "Unpredictable",
+            "I don’t mind"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the maximum number of validators allowed in Ethereum's proof-of-stake model?",
+        "options": [
+            "128",
+            "256",
+            "Unlimited",
+            "32,000"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about the concept of decentralized finance (DeFi)?",
+        "options": [
+            "Excited",
+            "Cautious",
+            "Indifferent",
+            "Worried"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the primary benefit of staking Ethereum?",
+        "options": [
+            "Earn rewards",
+            "Improve scalability",
+            "Help secure the network",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Do you own Ethereum-based NFTs?",
+        "options": [
+            "Yes",
+            "No",
+            "Planning to"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does the term ‘FOMO’ stand for in crypto?",
+        "options": [
+            "Fear of Missing Out",
+            "Future of Money Option",
+            "Fund of Money Organization",
+            "Financial Opportunity Model"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you think Ethereum will impact the traditional finance industry?",
+        "options": [
+            "Significantly",
+            "Moderately",
+            "No impact",
+            "I’m not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does EIP-1559 refer to in Ethereum?",
+        "options": [
+            "A gas fee reduction mechanism",
+            "A layer 2 solution",
+            "A consensus algorithm",
+            "A decentralized exchange"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What Ethereum feature do you find most useful?",
+        "options": [
+            "Smart Contracts",
+            "Decentralization",
+            "Scalability",
+            "NFTs"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does Ethereum use to secure its network?",
+        "options": [
+            "Proof of Stake",
+            "Proof of Work",
+            "Proof of Authority",
+            "None of the above"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you use Ethereum for DeFi applications?",
+        "options": [
+            "Yes",
+            "No",
+            "Occasionally"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the main purpose of the Ethereum Virtual Machine (EVM)?",
+        "options": [
+            "Running smart contracts",
+            "Providing storage",
+            "Transaction verification",
+            "Creating NFTs"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you like to learn more about Ethereum's staking process?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is NOT a feature of Ethereum 2.0?",
+        "options": [
+            "Proof of Work",
+            "Sharding",
+            "Staking",
+            "Improved scalability"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What’s your opinion on the environmental impact of blockchain mining?",
+        "options": [
+            "Concerned",
+            "Neutral",
+            "Not concerned"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does the ‘gas fee’ in Ethereum refer to?",
+        "options": [
+            "Storage fee",
+            "Transaction fee",
+            "Network maintenance fee",
+            "Processing fee"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "What is the most valuable feature of decentralized applications (DApps) for you?",
+        "options": [
+            "Security",
+            "Transparency",
+            "Efficiency",
+            "Innovation"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which consensus algorithm does Ethereum 2.0 use?",
+        "options": [
+            "Proof of Work",
+            "Proof of Stake",
+            "Delegated Proof of Stake",
+            "Proof of Authority"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you believe Ethereum's transition to Ethereum 2.0 will be successful?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What type of token is typically used in DeFi protocols?",
+        "options": [
+            "Stablecoins",
+            "Governance tokens",
+            "Utility tokens",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum will eventually support NFTs on Layer 2 solutions?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which is the first ever NFT minted on Ethereum?",
+        "options": [
+            "CryptoPunk #1",
+            "CryptoKitties",
+            "First Ever Token",
+            "Ether Rocks"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you participate in Ethereum-based governance votes?",
+        "options": [
+            "Yes",
+            "No",
+            "Sometimes"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which platform enables decentralized NFT marketplaces on Ethereum?",
+        "options": [
+            "OpenSea",
+            "Rarible",
+            "SuperRare",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "What is your preferred method of interacting with Ethereum-based DApps?",
+        "options": [
+            "Web Browser",
+            "Mobile App",
+            "Desktop App",
+            "None of the above"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum upgrade aims to introduce sharding to the network?",
+        "options": [
+            "The Merge",
+            "Ethereum 2.0",
+            "EIP-1559",
+            "Sharding Update"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Are you interested in Ethereum's Layer 2 solutions for faster transactions?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the term for the creation of new blocks on Ethereum?",
+        "options": [
+            "Mining",
+            "Minting",
+            "Block Production",
+            "Transaction Verification"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about the security of Ethereum's network?",
+        "options": [
+            "Very secure",
+            "Somewhat secure",
+            "Not secure",
+            "Uncertain"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum scaling solution uses optimistic rollups?",
+        "options": [
+            "Optimism",
+            "zkSync",
+            "Arbitrum",
+            "None of the above"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What’s your preferred Ethereum wallet?",
+        "options": [
+            "MetaMask",
+            "Ledger",
+            "Trezor",
+            "Other"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the first widely adopted Ethereum-based DeFi platform?",
+        "options": [
+            "Aave",
+            "Compound",
+            "Uniswap",
+            "MakerDAO"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "How important is Ethereum's interoperability with other blockchain networks for you?",
+        "options": [
+            "Very important",
+            "Somewhat important",
+            "Not important"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the primary purpose of an Ethereum wallet?",
+        "options": [
+            "Storing tokens",
+            "Sending tokens",
+            "Interacting with smart contracts",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum has the potential to scale for global usage?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these tokens is used on the Ethereum blockchain for decentralized governance?",
+        "options": [
+            "DAI",
+            "USDC",
+            "UNI",
+            "ETH"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "regular",
+        "question": "Would you prefer Ethereum to focus on scalability or decentralization?",
+        "options": [
+            "Scalability",
+            "Decentralization",
+            "Both equally"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum upgrade introduced the concept of EIP-1559?",
+        "options": [
+            "The Merge",
+            "EIP-1459",
+            "Ethereum 2.0",
+            "London Hard Fork"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "What do you think is the biggest challenge facing Ethereum in the next 5 years?",
+        "options": [
+            "Scalability",
+            "Security",
+            "Regulation",
+            "Adoption"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the Ethereum gas limit?",
+        "options": [
+            "Maximum gas that can be spent per block",
+            "Minimum gas required for a transaction",
+            "Maximum number of nodes",
+            "None of the above"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What is your preferred platform for Ethereum token exchanges?",
+        "options": [
+            "Uniswap",
+            "SushiSwap",
+            "PancakeSwap",
+            "Other"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is a major disadvantage of Ethereum's current proof-of-work consensus?",
+        "options": [
+            "High energy consumption",
+            "Scalability",
+            "Security issues",
+            "Slow transaction processing"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you follow Ethereum’s upgrade process and improvement proposals (EIPs)?",
+        "options": [
+            "Yes",
+            "No",
+            "Occasionally"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is Ethereum’s official symbol?",
+        "options": [
+            "ETH",
+            "ETHEREUM",
+            "ETHX",
+            "E"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What feature of Ethereum would you most like to see improved?",
+        "options": [
+            "Transaction Speed",
+            "Gas Fees",
+            "Security",
+            "Scalability"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum improvement proposal (EIP) introduced the concept of EVM compatibility?",
+        "options": [
+            "EIP-4488",
+            "EIP-3074",
+            "EIP-1559",
+            "EIP-1654"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you prefer Ethereum's decentralized governance model?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does the term 'dapp' stand for?",
+        "options": [
+            "Distributed application",
+            "Decentralized app",
+            "Digital application",
+            "None of the above"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you use Ethereum-based tokens for investment?",
+        "options": [
+            "Yes",
+            "No",
+            "Occasionally"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of a smart contract?",
+        "options": [
+            "Automating transactions",
+            "Managing wallets",
+            "Issuing tokens",
+            "Storing data"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How often do you interact with decentralized finance (DeFi) protocols?",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Rarely"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the name of Ethereum's first widely adopted decentralized exchange (DEX)?",
+        "options": [
+            "Uniswap",
+            "SushiSwap",
+            "Curve Finance",
+            "PancakeSwap"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What do you think about Ethereum's environmental impact?",
+        "options": [
+            "It's a concern",
+            "It's not a concern",
+            "I don't know"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is NOT a Layer 2 solution for Ethereum?",
+        "options": [
+            "Polygon",
+            "Arbitrum",
+            "Solana",
+            "Optimism"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "regular",
+        "question": "Would you recommend Ethereum to a beginner in blockchain?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum upgrade introduced the first deflationary mechanism?",
+        "options": [
+            "The Merge",
+            "EIP-1559",
+            "EIP-721",
+            "Eth2.0"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "How do you usually keep track of Ethereum's price?",
+        "options": [
+            "Cryptocurrency Apps",
+            "Websites",
+            "News",
+            "Other"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the maximum supply of Ethereum?",
+        "options": [
+            "Unlimited",
+            "21 million",
+            "50 million",
+            "No fixed supply"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum will maintain its dominance in the blockchain space?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What was Ethereum's initial coin offering (ICO) price?",
+        "options": [
+            "$0.30",
+            "$0.50",
+            "$1",
+            "$2"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you prefer Ethereum to integrate more privacy features?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these Ethereum-based projects focuses on creating decentralized finance applications?",
+        "options": [
+            "Aave",
+            "MakerDAO",
+            "Synthetix",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Would you invest in Ethereum if it introduces zero transaction fees?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is a major challenge for Ethereum in the DeFi space?",
+        "options": [
+            "Transaction fees",
+            "Smart contract security",
+            "Lack of liquidity",
+            "Regulation"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you prefer using Ethereum on mobile devices or desktops?",
+        "options": [
+            "Mobile",
+            "Desktop",
+            "Both"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum project is designed to provide a decentralized prediction market?",
+        "options": [
+            "Augur",
+            "Compound",
+            "Uniswap",
+            "Yearn.finance"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What’s the most common use case for Ethereum in your opinion?",
+        "options": [
+            "DeFi",
+            "NFTs",
+            "Smart contracts",
+            "DAO governance"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What Ethereum-based token is used for governance on Uniswap?",
+        "options": [
+            "UNI",
+            "DAI",
+            "USDT",
+            "ETH"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you use Ethereum as a store of value?",
+        "options": [
+            "Yes",
+            "No",
+            "Occasionally"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does the term 'staking' refer to in Ethereum?",
+        "options": [
+            "Locking up tokens to support network security",
+            "Creating a smart contract",
+            "Minting NFTs",
+            "Buying Ethereum tokens"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum has enough scalability for future growth?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum upgrade introduced the concept of Proof of Stake?",
+        "options": [
+            "The Merge",
+            "London Hard Fork",
+            "Constantinople",
+            "Homestead"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you prefer to store your Ethereum tokens?",
+        "options": [
+            "Hot Wallet",
+            "Cold Wallet",
+            "Both",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is a smart contract on Ethereum?",
+        "options": [
+            "A transaction fee",
+            "A self-executing contract",
+            "A governance token",
+            "A decentralized app"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum will be able to handle global transaction volumes in the future?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What Ethereum protocol update aims to improve the gas fee market?",
+        "options": [
+            "EIP-1559",
+            "EIP-1551",
+            "EIP-4488",
+            "EIP-3074"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you participate in yield farming on Ethereum?",
+        "options": [
+            "Yes",
+            "No",
+            "Sometimes"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What Ethereum token is used to pay for transaction fees?",
+        "options": [
+            "ETH",
+            "DAI",
+            "USDT",
+            "BTC"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you consider Ethereum to be the leader in the blockchain space?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum feature allows developers to create decentralized applications?",
+        "options": [
+            "Smart contracts",
+            "Proof of Work",
+            "Gas fees",
+            "Validators"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What do you think about the rise of Layer 2 solutions for Ethereum?",
+        "options": [
+            "Positive",
+            "Negative",
+            "Neutral",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Layer 2 solution uses optimistic rollups?",
+        "options": [
+            "Arbitrum",
+            "zkSync",
+            "Polygon",
+            "Solana"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about Ethereum's gas fees during high network activity?",
+        "options": [
+            "Frustrating",
+            "Acceptable",
+            "Not an issue"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does 'EIP' stand for in Ethereum?",
+        "options": [
+            "Ethereum Improvement Proposal",
+            "Ethereum Internal Process",
+            "Ethereum Integrated Protocol",
+            "Ether Initial Protocol"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you recommend Ethereum to a new blockchain enthusiast?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum project allows for decentralized finance (DeFi) protocols?",
+        "options": [
+            "MakerDAO",
+            "Aave",
+            "Compound",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "What aspect of Ethereum's future excites you the most?",
+        "options": [
+            "Scalability improvements",
+            "NFTs",
+            "Smart contracts",
+            "Decentralized finance"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is an Ethereum-based decentralized exchange?",
+        "options": [
+            "Uniswap",
+            "Binance",
+            "Coinbase",
+            "Kraken"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What do you think Ethereum's transition to Ethereum 2.0 will bring?",
+        "options": [
+            "Faster transactions",
+            "Lower fees",
+            "Improved security",
+            "All of the above"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the function of an Ethereum miner?",
+        "options": [
+            "Mining tokens",
+            "Validating transactions",
+            "Creating smart contracts",
+            "Running dApps"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you believe Ethereum will eventually be fully decentralized?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum upgrade aims to reduce gas fees and improve network efficiency?",
+        "options": [
+            "EIP-1559",
+            "EIP-1488",
+            "EIP-3074",
+            "Ethereum 2.0"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about Ethereum's transition to Proof of Stake?",
+        "options": [
+            "Excited",
+            "Indifferent",
+            "Concerned",
+            "Confused"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is Ethereum's native token?",
+        "options": [
+            "ETH",
+            "BTC",
+            "DOGE",
+            "ADA"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you believe Ethereum's current gas fees are sustainable long-term?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is Ethereum's largest competitor in the smart contract blockchain space?",
+        "options": [
+            "Solana",
+            "Polkadot",
+            "Cardano",
+            "Avalanche"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How often do you check the Ethereum network updates?",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Rarely"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which project introduced the concept of decentralized autonomous organizations (DAOs) on Ethereum?",
+        "options": [
+            "The DAO",
+            "MakerDAO",
+            "Aave",
+            "Uniswap"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum's security features are enough to handle attacks?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the primary function of Ethereum's Gas?",
+        "options": [
+            "To pay miners for validation",
+            "To stake tokens",
+            "To purchase NFTs",
+            "To enable smart contracts"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you participate in Ethereum staking?",
+        "options": [
+            "Yes",
+            "No",
+            "Not yet but planning to"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the maximum transaction limit on Ethereum gas?",
+        "options": [
+            "There is no limit",
+            "50 Gwei",
+            "100 Gwei",
+            "200 Gwei"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How much do you trust Ethereum's governance structure?",
+        "options": [
+            "Very much",
+            "Moderately",
+            "Not at all",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does the term 'EVM' stand for?",
+        "options": [
+            "Ethereum Virtual Machine",
+            "Ethereum Validator Mechanism",
+            "Enhanced Virtual Machine",
+            "Ethereum Value Market"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you consider investing in Ethereum long-term?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is the Ethereum scaling solution based on zk-rollups?",
+        "options": [
+            "zkSync",
+            "Arbitrum",
+            "Optimism",
+            "Polygon"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum is a good choice for building enterprise-level dApps?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the Ethereum address format for sending tokens?",
+        "options": [
+            "0x",
+            "0b",
+            "0y",
+            "0t"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How satisfied are you with Ethereum's transaction speed?",
+        "options": [
+            "Very satisfied",
+            "Somewhat satisfied",
+            "Not satisfied",
+            "No opinion"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What Ethereum-based token is used as collateral in decentralized lending platforms?",
+        "options": [
+            "ETH",
+            "DAI",
+            "USDT",
+            "BNB"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you use Ethereum for non-financial purposes (e.g., NFTs, gaming)?",
+        "options": [
+            "Yes",
+            "No",
+            "Occasionally"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is an Ethereum token standard for NFTs?",
+        "options": [
+            "ERC-20",
+            "ERC-721",
+            "ERC-1155",
+            "Both 2 and 3"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Would you recommend using Ethereum for building decentralized finance (DeFi) applications?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum upgrade is designed to improve the gas fee structure?",
+        "options": [
+            "EIP-1559",
+            "EIP-4488",
+            "EIP-3074",
+            "EIP-3656"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What do you think about Ethereum's environmental impact after transitioning to Proof of Stake?",
+        "options": [
+            "Improved",
+            "Still concerns",
+            "No opinion",
+            "No change"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the Ethereum Foundation's role?",
+        "options": [
+            "Building Ethereum's ecosystem",
+            "Governance of Ethereum",
+            "Protocol mining",
+            "Both 1 and 2"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you believe Ethereum's market cap will surpass Bitcoin in the future?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is NOT a use case for Ethereum?",
+        "options": [
+            "Building NFTs",
+            "Lending and borrowing",
+            "Storing personal data",
+            "Decentralized gaming"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about Ethereum's price fluctuations?",
+        "options": [
+            "Exciting",
+            "Stressful",
+            "Indifferent",
+            "Concerned"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the Ethereum Virtual Machine (EVM) responsible for?",
+        "options": [
+            "Executing smart contracts",
+            "Mining Ether",
+            "Storing transaction data",
+            "Governance decisions"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum will become more user-friendly for non-technical users?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum token standard allows for creating fungible tokens?",
+        "options": [
+            "ERC-20",
+            "ERC-721",
+            "ERC-1155",
+            "ERC-1400"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How often do you participate in Ethereum-related community discussions?",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Rarely"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does Ethereum's Proof of Stake consensus mechanism rely on?",
+        "options": [
+            "Staking ETH",
+            "Mining",
+            "Burning tokens",
+            "Storing tokens"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you consider running an Ethereum node to support the network?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the primary function of a decentralized oracle in Ethereum?",
+        "options": [
+            "Providing real-world data",
+            "Storing transaction history",
+            "Storing smart contracts",
+            "Validating transactions"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How important do you think Ethereum's developer community is for its future success?",
+        "options": [
+            "Extremely important",
+            "Somewhat important",
+            "Not important",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a benefit of Ethereum's Proof of Stake over Proof of Work?",
+        "options": [
+            "Energy efficiency",
+            "Faster transactions",
+            "Lower fees",
+            "Higher security"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum can eventually scale without compromising decentralization?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is a decentralized exchange on Ethereum?",
+        "options": [
+            "Uniswap",
+            "Binance",
+            "Coinbase",
+            "Kraken"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about Ethereum's competition from other blockchain platforms?",
+        "options": [
+            "Excited",
+            "Concerned",
+            "Indifferent",
+            "Neutral"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the main purpose of Ethereum's network upgrade 'The Merge'?",
+        "options": [
+            "Transition to Proof of Stake",
+            "Increase block size",
+            "Reduce transaction fees",
+            "Improve smart contract security"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum has potential to become a global settlement layer?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum network upgrade introduced the concept of sharding?",
+        "options": [
+            "Ethereum 2.0",
+            "EIP-1559",
+            "The Merge",
+            "Serenity"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "What is your opinion on Ethereum's upcoming Layer 2 scaling solutions?",
+        "options": [
+            "Excited",
+            "Cautious",
+            "Indifferent",
+            "Skeptical"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum token is widely used as collateral for decentralized lending platforms?",
+        "options": [
+            "ETH",
+            "DAI",
+            "USDT",
+            "BTC"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum will become the primary blockchain for smart contracts?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the function of a smart contract on the Ethereum network?",
+        "options": [
+            "Automates agreements",
+            "Creates NFTs",
+            "Validates transactions",
+            "Mines blocks"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about Ethereum's transition to Proof of Stake?",
+        "options": [
+            "Excited",
+            "Neutral",
+            "Worried",
+            "Indifferent"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum-based protocol is focused on creating stablecoins?",
+        "options": [
+            "MakerDAO",
+            "Aave",
+            "Uniswap",
+            "Synthetix"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about Ethereum's use in the DeFi space?",
+        "options": [
+            "Positive",
+            "Negative",
+            "Neutral"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does the term 'gas' refer to in the Ethereum network?",
+        "options": [
+            "Transaction fees",
+            "Network upgrades",
+            "Smart contract execution",
+            "Validator rewards"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum can maintain its position as a leader in the blockchain space?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum Layer 2 scaling solution uses zk-rollups?",
+        "options": [
+            "zkSync",
+            "Arbitrum",
+            "Optimism",
+            "Polygon"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "What do you think Ethereum's price will be in 5 years?",
+        "options": [
+            "Increase significantly",
+            "Stay the same",
+            "Decrease significantly",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum update introduced the first deflationary mechanism?",
+        "options": [
+            "EIP-1559",
+            "The Merge",
+            "EIP-4488",
+            "Serenity"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How often do you interact with decentralized applications (dApps)?",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Occasionally",
+            "Never"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum update introduces a mechanism to reduce transaction fees by burning part of the fees?",
+        "options": [
+            "EIP-1559",
+            "The Merge",
+            "Ethereum 2.0",
+            "Serenity"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum will see broader adoption outside of crypto?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following Ethereum Layer 2 solutions is based on optimistic rollups?",
+        "options": [
+            "Arbitrum",
+            "zkSync",
+            "Polygon",
+            "Optimism"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Would you like Ethereum to improve its privacy features?",
+        "options": [
+            "Yes",
+            "No",
+            "I don't care"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does the term 'gas' represent in Ethereum?",
+        "options": [
+            "Transaction fees",
+            "Validators' rewards",
+            "Block size",
+            "Storage capacity"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How much do you rely on Ethereum for personal investments?",
+        "options": [
+            "Highly",
+            "Moderately",
+            "Occasionally",
+            "Not at all"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which platform is a decentralized exchange (DEX) built on Ethereum?",
+        "options": [
+            "Uniswap",
+            "Coinbase",
+            "Kraken",
+            "Binance"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you consider developing a decentralized application (dApp) on Ethereum?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum token standard is used for creating non-fungible tokens (NFTs)?",
+        "options": [
+            "ERC-20",
+            "ERC-721",
+            "ERC-1155",
+            "ERC-1400"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you trust Ethereum’s future as a decentralized network?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum upgrade introduced staking as part of the Proof of Stake transition?",
+        "options": [
+            "EIP-1559",
+            "Ethereum 2.0",
+            "The Merge",
+            "Serenity"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "regular",
+        "question": "How often do you check Ethereum's price?",
+        "options": [
+            "Multiple times a day",
+            "Once a day",
+            "Weekly",
+            "Rarely"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which project is Ethereum's largest competitor in the smart contract space?",
+        "options": [
+            "Polkadot",
+            "Cardano",
+            "Solana",
+            "Avalanche"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "regular",
+        "question": "Would you prefer Ethereum to remain a decentralized network even if it comes at a cost?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What Ethereum token standard is used for creating fungible tokens?",
+        "options": [
+            "ERC-20",
+            "ERC-721",
+            "ERC-1155",
+            "ERC-1400"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you invest in Ethereum-based projects?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is a feature of Ethereum’s Proof of Stake consensus mechanism?",
+        "options": [
+            "Low energy consumption",
+            "Higher rewards for miners",
+            "Faster transactions",
+            "Decentralized governance"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you use Ethereum to transfer money?",
+        "options": [
+            "Yes",
+            "No",
+            "Sometimes"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the Ethereum gas limit?",
+        "options": [
+            "50 Gwei",
+            "100 Gwei",
+            "There is no fixed limit",
+            "2 ETH"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "regular",
+        "question": "Are you interested in the Ethereum 2.0 upgrade?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does the term 'DeFi' stand for?",
+        "options": [
+            "Decentralized Finance",
+            "Digital Finance",
+            "Dynamic Finance",
+            "Direct Finance"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum can handle mass adoption of decentralized finance applications?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum scaling solution uses zk-rollups for faster transactions?",
+        "options": [
+            "zkSync",
+            "Optimism",
+            "Arbitrum",
+            "Polygon"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about the increasing adoption of Ethereum by enterprises?",
+        "options": [
+            "Excited",
+            "Indifferent",
+            "Concerned",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which token is used as the collateral for Ethereum-based stablecoins like DAI?",
+        "options": [
+            "ETH",
+            "BTC",
+            "USDT",
+            "DAI"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How often do you participate in Ethereum-based governance proposals?",
+        "options": [
+            "Frequently",
+            "Occasionally",
+            "Never",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum update will fully transition Ethereum to Proof of Stake?",
+        "options": [
+            "EIP-1559",
+            "The Merge",
+            "Ethereum 2.0",
+            "Serenity"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum is the best platform for decentralized finance applications?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is an Ethereum-based stablecoin?",
+        "options": [
+            "DAI",
+            "USDT",
+            "USDC",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Would you like to see Ethereum incorporate more privacy-focused features?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the main purpose of Ethereum’s 'gas'?",
+        "options": [
+            "To power smart contract execution",
+            "To reward miners",
+            "To store transactions",
+            "To enable staking"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you like to stake Ethereum to help secure the network?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the maximum gas price on Ethereum?",
+        "options": [
+            "There is no limit",
+            "100 Gwei",
+            "500 Gwei",
+            "200 Gwei"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How secure do you feel using Ethereum for financial transactions?",
+        "options": [
+            "Very secure",
+            "Somewhat secure",
+            "Not secure",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a common use of Ethereum besides DeFi?",
+        "options": [
+            "NFTs",
+            "Gaming",
+            "Voting",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "Would you use Ethereum to build a personal finance application?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the gas limit for Ethereum blocks?",
+        "options": [
+            "15 million gas",
+            "20 million gas",
+            "30 million gas",
+            "50 million gas"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "regular",
+        "question": "Would you prefer Ethereum to adopt more enterprise-focused features?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum token is commonly used for staking in DeFi protocols?",
+        "options": [
+            "ETH",
+            "DAI",
+            "USDC",
+            "USDT"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Do you think Ethereum will remain decentralized as it scales?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which platform is a decentralized exchange built on Ethereum?",
+        "options": [
+            "Uniswap",
+            "Sushiswap",
+            "PancakeSwap",
+            "Both 1 and 2"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "regular",
+        "question": "How confident are you in Ethereum's ability to scale effectively?",
+        "options": [
+            "Very confident",
+            "Somewhat confident",
+            "Not confident",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What does Ethereum’s 'The Merge' refer to?",
+        "options": [
+            "Transition to Proof of Stake",
+            "Increase in block size",
+            "Migration to a new consensus model",
+            "All of the above"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "How do you feel about Ethereum's fees?",
+        "options": [
+            "High",
+            "Moderate",
+            "Low",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum project is focused on privacy enhancements?",
+        "options": [
+            "Aztec Protocol",
+            "Uniswap",
+            "MakerDAO",
+            "Chainlink"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you use Ethereum to pay for goods and services?",
+        "options": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "What is the Ethereum Virtual Machine (EVM)?",
+        "options": [
+            "A tool for developers",
+            "A blockchain scaling solution",
+            "A system that executes smart contracts",
+            "A cryptocurrency wallet"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "regular",
+        "question": "How frequently do you use Ethereum for transactions?",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Occasionally",
+            "Never"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum improvement proposal (EIP) introduced a deflationary mechanism for gas fees?",
+        "options": [
+            "EIP-1559",
+            "The Merge",
+            "Ethereum 2.0",
+            "Serenity"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "regular",
+        "question": "Would you prefer Ethereum's fees to be more predictable?",
+        "options": [
+            "Yes",
+            "No",
+            "Not sure"
+        ]
+    },
+    {
+        "type": "quiz",
+        "question": "Which Ethereum-based token is commonly used as collateral in decentralized finance (DeFi) protocols?",
+        "options": [
+            "ETH",
+            "USDC",
+            "USDT",
+            "DAI"
+        ],
+        "correct_option_id": 0
+    }
+]
