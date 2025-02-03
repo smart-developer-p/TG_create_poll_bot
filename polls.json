@@ -1,2348 +1,2311 @@
 [
     {
-        "type": "regular",
-        "question": "What is the most important aspect of Ethereum for you?",
+        "type": "quiz",
+        "question": "Which of the following is a valid JavaScript variable declaration?",
         "options": [
-            "Decentralization",
-            "Security",
-            "Scalability",
-            "Smart Contracts"
-        ]
+            "var x = 10;",
+            "int x = 10;",
+            "declare x = 10;",
+            "define x = 10;"
+        ],
+        "correct_option_id": 0
     },
     {
         "type": "quiz",
-        "question": "What is the native cryptocurrency of Ethereum?",
+        "question": "What does CSS stand for?",
         "options": [
-            "Bitcoin",
-            "Ethereum",
-            "ETH",
-            "USDT"
+            "Computer Style Sheets",
+            "Cascading Style Sheets",
+            "Creative Style Sheets",
+            "Coded Style Sheets"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "Which data structure is typically used to implement a LIFO (Last In, First Out) principle?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Array",
+            "Linked List"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is not a Python data type?",
+        "options": [
+            "int",
+            "str",
+            "float",
+            "char"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following JavaScript functions can be used to parse a string into an integer?",
+        "options": [
+            "parseFloat()",
+            "parseInt()",
+            "toInteger()",
+            "toNumber()"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "What is the main purpose of a version control system like Git?",
+        "options": [
+            "To store project files",
+            "To manage project dependencies",
+            "To track changes in the project over time",
+            "To deploy applications"
         ],
         "correct_option_id": 2
     },
     {
-        "type": "regular",
-        "question": "What are your thoughts on Ethereum 2.0?",
+        "type": "quiz",
+        "question": "Which of the following is used for front-end web development?",
         "options": [
-            "Excited",
-            "Neutral",
-            "Not Interested"
-        ]
+            "Node.js",
+            "React",
+            "Django",
+            "Flask"
+        ],
+        "correct_option_id": 1
     },
     {
         "type": "quiz",
-        "question": "Which of these is not an Ethereum token standard?",
+        "question": "Which of these is an object-oriented programming language?",
         "options": [
-            "ERC-20",
-            "ERC-721",
-            "ERC-1155",
-            "ERC-50"
+            "HTML",
+            "JavaScript",
+            "SQL",
+            "CSS"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "In SQL, which command is used to retrieve data from a database?",
+        "options": [
+            "GET",
+            "SELECT",
+            "FETCH",
+            "RETRIEVE"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "What is the term for a bug caused by incorrect memory management in C and C++?",
+        "options": [
+            "Memory leak",
+            "Stack overflow",
+            "Null pointer exception",
+            "Index out of bounds"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a valid JavaScript variable declaration?",
+        "options": [
+            "var x = 10;",
+            "int x = 10;",
+            "declare x = 10;",
+            "define x = 10;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does CSS stand for?",
+        "options": [
+            "Computer Style Sheets",
+            "Cascading Style Sheets",
+            "Creative Style Sheets",
+            "Coded Style Sheets"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "Which data structure is typically used to implement a LIFO (Last In, First Out) principle?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Array",
+            "Linked List"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is not a Python data type?",
+        "options": [
+            "int",
+            "str",
+            "float",
+            "char"
         ],
         "correct_option_id": 3
     },
     {
-        "type": "regular",
-        "question": "How often do you interact with smart contracts?",
-        "options": [
-            "Daily",
-            "Weekly",
-            "Monthly",
-            "Rarely"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "Which Ethereum scaling solution uses rollups?",
+        "question": "Which of the following JavaScript functions can be used to parse a string into an integer?",
         "options": [
-            "Optimism",
-            "zkSync",
-            "Arbitrum",
-            "All of the above"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "What is your primary reason for using Ethereum?",
-        "options": [
-            "Investment",
-            "DeFi",
-            "Smart Contracts",
-            "NFTs"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum upgrade aims to reduce gas fees?",
-        "options": [
-            "The Merge",
-            "EIP-1559",
-            "Sharding",
-            "Ethereum 2.0"
+            "parseFloat()",
+            "parseInt()",
+            "toInteger()",
+            "toNumber()"
         ],
         "correct_option_id": 1
     },
     {
-        "type": "regular",
-        "question": "Do you think Ethereum will overtake Bitcoin in the future?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is a DAO?",
+        "question": "What is the main purpose of a version control system like Git?",
         "options": [
-            "Decentralized Application",
-            "Decentralized Autonomous Organization",
-            "Distributed Application",
-            "None of the above"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "How do you feel about NFTs?",
-        "options": [
-            "Love them",
-            "Neutral",
-            "Not interested"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does the term ‘staking’ in Ethereum mean?",
-        "options": [
-            "Locking tokens to participate in network consensus",
-            "Mining tokens",
-            "Sending tokens",
-            "Creating smart contracts"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Are you interested in learning about DeFi?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum token is primarily used for staking?",
-        "options": [
-            "BTC",
-            "ETH",
-            "ADA",
-            "SOL"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "What is your favorite Ethereum-based DEX?",
-        "options": [
-            "Uniswap",
-            "SushiSwap",
-            "PancakeSwap",
-            "Other"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is Ethereum gas used for?",
-        "options": [
-            "Paying transaction fees",
-            "Executing smart contracts",
-            "Storing data",
-            "All of the above"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "Do you prefer using a hardware wallet or a software wallet for Ethereum?",
-        "options": [
-            "Hardware wallet",
-            "Software wallet",
-            "Both",
-            "Neither"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which layer of Ethereum handles the transaction processing?",
-        "options": [
-            "Layer 1",
-            "Layer 2",
-            "Layer 3",
-            "Off-chain"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Would you consider participating in an Ethereum-based governance vote?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum upgrade will move Ethereum from proof-of-work to proof-of-stake?",
-        "options": [
-            "The Merge",
-            "Sharding",
-            "EIP-1559",
-            "Ethereum 2.0"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How familiar are you with Ethereum's smart contract programming language, Solidity?",
-        "options": [
-            "Very familiar",
-            "Somewhat familiar",
-            "Not familiar at all"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the maximum supply of Ethereum?",
-        "options": [
-            "21 Million",
-            "No Maximum Supply",
-            "100 Million",
-            "1 Billion"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Which Ethereum-based game have you played?",
-        "options": [
-            "Axie Infinity",
-            "Decentraland",
-            "Gods Unchained",
-            "Other"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is a smart contract?",
-        "options": [
-            "A contract written by a lawyer",
-            "A contract that runs automatically when conditions are met",
-            "A contract in cryptocurrency",
-            "A contract with a fixed price"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "How often do you follow Ethereum news?",
-        "options": [
-            "Daily",
-            "Weekly",
-            "Monthly",
-            "Rarely"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which DeFi protocol allows users to lend and borrow Ethereum?",
-        "options": [
-            "Aave",
-            "Uniswap",
-            "Compound",
-            "All of the above"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "Would you be willing to stake your Ethereum for rewards?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the name of Ethereum's decentralized storage system?",
-        "options": [
-            "IPFS",
-            "Arweave",
-            "Filecoin",
-            "All of the above"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum will continue to grow in the next decade?",
-        "options": [
-            "Yes",
-            "No",
-            "Uncertain"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of the following is an example of a decentralized exchange (DEX)?",
-        "options": [
-            "Uniswap",
-            "Binance",
-            "Coinbase",
-            "Kraken"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you prefer using centralized exchanges or decentralized exchanges?",
-        "options": [
-            "Centralized",
-            "Decentralized",
-            "Neither",
-            "Both"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of the following is an Ethereum Layer 2 solution?",
-        "options": [
-            "Polygon",
-            "Uniswap",
-            "Aave",
-            "Ethereum 2.0"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How do you feel about Ethereum’s current gas fees?",
-        "options": [
-            "Too high",
-            "Affordable",
-            "Unpredictable",
-            "I don’t mind"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the maximum number of validators allowed in Ethereum's proof-of-stake model?",
-        "options": [
-            "128",
-            "256",
-            "Unlimited",
-            "32,000"
+            "To store project files",
+            "To manage project dependencies",
+            "To track changes in the project over time",
+            "To deploy applications"
         ],
         "correct_option_id": 2
     },
     {
-        "type": "regular",
-        "question": "How do you feel about the concept of decentralized finance (DeFi)?",
-        "options": [
-            "Excited",
-            "Cautious",
-            "Indifferent",
-            "Worried"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is the primary benefit of staking Ethereum?",
+        "question": "Which of the following is used for front-end web development?",
         "options": [
-            "Earn rewards",
-            "Improve scalability",
-            "Help secure the network",
-            "All of the above"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "Do you own Ethereum-based NFTs?",
-        "options": [
-            "Yes",
-            "No",
-            "Planning to"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does the term ‘FOMO’ stand for in crypto?",
-        "options": [
-            "Fear of Missing Out",
-            "Future of Money Option",
-            "Fund of Money Organization",
-            "Financial Opportunity Model"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How do you think Ethereum will impact the traditional finance industry?",
-        "options": [
-            "Significantly",
-            "Moderately",
-            "No impact",
-            "I’m not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does EIP-1559 refer to in Ethereum?",
-        "options": [
-            "A gas fee reduction mechanism",
-            "A layer 2 solution",
-            "A consensus algorithm",
-            "A decentralized exchange"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "What Ethereum feature do you find most useful?",
-        "options": [
-            "Smart Contracts",
-            "Decentralization",
-            "Scalability",
-            "NFTs"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does Ethereum use to secure its network?",
-        "options": [
-            "Proof of Stake",
-            "Proof of Work",
-            "Proof of Authority",
-            "None of the above"
+            "Node.js",
+            "React",
+            "Django",
+            "Flask"
         ],
         "correct_option_id": 1
     },
     {
-        "type": "regular",
-        "question": "Do you use Ethereum for DeFi applications?",
-        "options": [
-            "Yes",
-            "No",
-            "Occasionally"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is the main purpose of the Ethereum Virtual Machine (EVM)?",
+        "question": "Which of these is an object-oriented programming language?",
         "options": [
-            "Running smart contracts",
-            "Providing storage",
-            "Transaction verification",
-            "Creating NFTs"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Would you like to learn more about Ethereum's staking process?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of these is NOT a feature of Ethereum 2.0?",
-        "options": [
-            "Proof of Work",
-            "Sharding",
-            "Staking",
-            "Improved scalability"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "What’s your opinion on the environmental impact of blockchain mining?",
-        "options": [
-            "Concerned",
-            "Neutral",
-            "Not concerned"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does the ‘gas fee’ in Ethereum refer to?",
-        "options": [
-            "Storage fee",
-            "Transaction fee",
-            "Network maintenance fee",
-            "Processing fee"
+            "HTML",
+            "JavaScript",
+            "SQL",
+            "CSS"
         ],
         "correct_option_id": 1
     },
     {
-        "type": "regular",
-        "question": "What is the most valuable feature of decentralized applications (DApps) for you?",
-        "options": [
-            "Security",
-            "Transparency",
-            "Efficiency",
-            "Innovation"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "Which consensus algorithm does Ethereum 2.0 use?",
+        "question": "In SQL, which command is used to retrieve data from a database?",
         "options": [
-            "Proof of Work",
-            "Proof of Stake",
-            "Delegated Proof of Stake",
-            "Proof of Authority"
+            "GET",
+            "SELECT",
+            "FETCH",
+            "RETRIEVE"
         ],
         "correct_option_id": 1
     },
     {
-        "type": "regular",
-        "question": "Do you believe Ethereum's transition to Ethereum 2.0 will be successful?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What type of token is typically used in DeFi protocols?",
+        "question": "What is the term for a bug caused by incorrect memory management in C and C++?",
         "options": [
-            "Stablecoins",
-            "Governance tokens",
-            "Utility tokens",
-            "All of the above"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum will eventually support NFTs on Layer 2 solutions?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which is the first ever NFT minted on Ethereum?",
-        "options": [
-            "CryptoPunk #1",
-            "CryptoKitties",
-            "First Ever Token",
-            "Ether Rocks"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Do you participate in Ethereum-based governance votes?",
-        "options": [
-            "Yes",
-            "No",
-            "Sometimes"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which platform enables decentralized NFT marketplaces on Ethereum?",
-        "options": [
-            "OpenSea",
-            "Rarible",
-            "SuperRare",
-            "All of the above"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "What is your preferred method of interacting with Ethereum-based DApps?",
-        "options": [
-            "Web Browser",
-            "Mobile App",
-            "Desktop App",
-            "None of the above"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum upgrade aims to introduce sharding to the network?",
-        "options": [
-            "The Merge",
-            "Ethereum 2.0",
-            "EIP-1559",
-            "Sharding Update"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Are you interested in Ethereum's Layer 2 solutions for faster transactions?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the term for the creation of new blocks on Ethereum?",
-        "options": [
-            "Mining",
-            "Minting",
-            "Block Production",
-            "Transaction Verification"
+            "Memory leak",
+            "Stack overflow",
+            "Null pointer exception",
+            "Index out of bounds"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "How do you feel about the security of Ethereum's network?",
-        "options": [
-            "Very secure",
-            "Somewhat secure",
-            "Not secure",
-            "Uncertain"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "Which Ethereum scaling solution uses optimistic rollups?",
+        "question": "Which protocol is used to send emails?",
         "options": [
-            "Optimism",
-            "zkSync",
-            "Arbitrum",
-            "None of the above"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "What’s your preferred Ethereum wallet?",
-        "options": [
-            "MetaMask",
-            "Ledger",
-            "Trezor",
-            "Other"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of the following is the first widely adopted Ethereum-based DeFi platform?",
-        "options": [
-            "Aave",
-            "Compound",
-            "Uniswap",
-            "MakerDAO"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "How important is Ethereum's interoperability with other blockchain networks for you?",
-        "options": [
-            "Very important",
-            "Somewhat important",
-            "Not important"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the primary purpose of an Ethereum wallet?",
-        "options": [
-            "Storing tokens",
-            "Sending tokens",
-            "Interacting with smart contracts",
-            "All of the above"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum has the potential to scale for global usage?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of these tokens is used on the Ethereum blockchain for decentralized governance?",
-        "options": [
-            "DAI",
-            "USDC",
-            "UNI",
-            "ETH"
+            "HTTP",
+            "FTP",
+            "SMTP",
+            "IMAP"
         ],
         "correct_option_id": 2
     },
     {
-        "type": "regular",
-        "question": "Would you prefer Ethereum to focus on scalability or decentralization?",
-        "options": [
-            "Scalability",
-            "Decentralization",
-            "Both equally"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "Which Ethereum upgrade introduced the concept of EIP-1559?",
+        "question": "What does SQL stand for?",
         "options": [
-            "The Merge",
-            "EIP-1459",
-            "Ethereum 2.0",
-            "London Hard Fork"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "What do you think is the biggest challenge facing Ethereum in the next 5 years?",
-        "options": [
-            "Scalability",
-            "Security",
-            "Regulation",
-            "Adoption"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the Ethereum gas limit?",
-        "options": [
-            "Maximum gas that can be spent per block",
-            "Minimum gas required for a transaction",
-            "Maximum number of nodes",
-            "None of the above"
+            "Structured Query Language",
+            "Simple Query Language",
+            "Standard Query Language",
+            "Structured Query List"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "What is your preferred platform for Ethereum token exchanges?",
-        "options": [
-            "Uniswap",
-            "SushiSwap",
-            "PancakeSwap",
-            "Other"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is a major disadvantage of Ethereum's current proof-of-work consensus?",
+        "question": "Which HTML element is used to define an internal style sheet?",
         "options": [
-            "High energy consumption",
-            "Scalability",
-            "Security issues",
-            "Slow transaction processing"
+            "<style>",
+            "<css>",
+            "<script>",
+            "<link>"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "Do you follow Ethereum’s upgrade process and improvement proposals (EIPs)?",
-        "options": [
-            "Yes",
-            "No",
-            "Occasionally"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is Ethereum’s official symbol?",
+        "question": "In which year was JavaScript created?",
         "options": [
-            "ETH",
-            "ETHEREUM",
-            "ETHX",
-            "E"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "What feature of Ethereum would you most like to see improved?",
-        "options": [
-            "Transaction Speed",
-            "Gas Fees",
-            "Security",
-            "Scalability"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum improvement proposal (EIP) introduced the concept of EVM compatibility?",
-        "options": [
-            "EIP-4488",
-            "EIP-3074",
-            "EIP-1559",
-            "EIP-1654"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you prefer Ethereum's decentralized governance model?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does the term 'dapp' stand for?",
-        "options": [
-            "Distributed application",
-            "Decentralized app",
-            "Digital application",
-            "None of the above"
+            "1990",
+            "1995",
+            "2000",
+            "2005"
         ],
         "correct_option_id": 1
     },
     {
-        "type": "regular",
-        "question": "Do you use Ethereum-based tokens for investment?",
+        "type": "quiz",
+        "question": "Which Python library is commonly used for web development?",
         "options": [
-            "Yes",
-            "No",
-            "Occasionally"
-        ]
+            "Pandas",
+            "Django",
+            "TensorFlow",
+            "NumPy"
+        ],
+        "correct_option_id": 1
     },
     {
         "type": "quiz",
-        "question": "What is the purpose of a smart contract?",
+        "question": "What is the term for an error that occurs when a program tries to access a memory location that is out of its bounds?",
         "options": [
-            "Automating transactions",
-            "Managing wallets",
-            "Issuing tokens",
-            "Storing data"
+            "Segmentation fault",
+            "Stack overflow",
+            "Memory leak",
+            "Syntax error"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "How often do you interact with decentralized finance (DeFi) protocols?",
+        "type": "quiz",
+        "question": "Which HTTP method is used to submit data to be processed by a server?",
         "options": [
-            "Daily",
-            "Weekly",
-            "Monthly",
-            "Rarely"
-        ]
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ],
+        "correct_option_id": 1
     },
     {
         "type": "quiz",
-        "question": "What is the name of Ethereum's first widely adopted decentralized exchange (DEX)?",
+        "question": "Which JavaScript method is used to add an element to the end of an array?",
         "options": [
-            "Uniswap",
-            "SushiSwap",
-            "Curve Finance",
-            "PancakeSwap"
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "What do you think about Ethereum's environmental impact?",
+        "type": "quiz",
+        "question": "What is the purpose of a constructor function in JavaScript?",
         "options": [
-            "It's a concern",
-            "It's not a concern",
-            "I don't know"
-        ]
+            "To create new objects",
+            "To modify arrays",
+            "To handle errors",
+            "To execute code at startup"
+        ],
+        "correct_option_id": 0
     },
     {
         "type": "quiz",
-        "question": "Which of these is NOT a Layer 2 solution for Ethereum?",
+        "question": "Which of these languages is primarily used for mobile app development?",
         "options": [
-            "Polygon",
-            "Arbitrum",
-            "Solana",
-            "Optimism"
+            "Swift",
+            "C#",
+            "JavaScript",
+            "HTML"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a feature of cloud computing?",
+        "options": [
+            "Limited storage",
+            "On-demand resource allocation",
+            "Requires local hardware",
+            "Always offline"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is not an example of a relational database?",
+        "options": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "SQLite"
         ],
         "correct_option_id": 2
     },
     {
-        "type": "regular",
-        "question": "Would you recommend Ethereum to a beginner in blockchain?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "Which Ethereum upgrade introduced the first deflationary mechanism?",
+        "question": "In Java, what is the default value of an instance variable of type 'boolean'?",
         "options": [
-            "The Merge",
-            "EIP-1559",
-            "EIP-721",
-            "Eth2.0"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "How do you usually keep track of Ethereum's price?",
-        "options": [
-            "Cryptocurrency Apps",
-            "Websites",
-            "News",
-            "Other"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the maximum supply of Ethereum?",
-        "options": [
-            "Unlimited",
-            "21 million",
-            "50 million",
-            "No fixed supply"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum will maintain its dominance in the blockchain space?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What was Ethereum's initial coin offering (ICO) price?",
-        "options": [
-            "$0.30",
-            "$0.50",
-            "$1",
-            "$2"
+            "false",
+            "true",
+            "null",
+            "0"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "Do you prefer Ethereum to integrate more privacy features?",
+        "type": "quiz",
+        "question": "Which of the following programming languages is primarily used for Android app development?",
         "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
+            "Java",
+            "C++",
+            "Swift",
+            "Objective-C"
+        ],
+        "correct_option_id": 0
     },
     {
         "type": "quiz",
-        "question": "Which of these Ethereum-based projects focuses on creating decentralized finance applications?",
+        "question": "Which type of loop in Python will execute a block of code indefinitely unless a break condition is met?",
         "options": [
-            "Aave",
-            "MakerDAO",
-            "Synthetix",
+            "for",
+            "while",
+            "do-while",
+            "loop"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "What does the CSS 'position' property do?",
+        "options": [
+            "Sets the position of an element relative to its parent",
+            "Defines the margin of an element",
+            "Aligns an element vertically",
+            "Defines the background color of an element"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of the 'finally' block in a try-catch statement in JavaScript?",
+        "options": [
+            "It is executed before the 'try' block",
+            "It is executed after the 'try' and 'catch' blocks, regardless of the result",
+            "It is executed if an error occurs",
+            "It is executed only if no errors occur"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is a web development framework for Python?",
+        "options": [
+            "React",
+            "Angular",
+            "Django",
+            "Vue.js"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "quiz",
+        "question": "In JavaScript, what does 'NaN' represent?",
+        "options": [
+            "Null and Not Defined",
+            "Not a Number",
+            "Not a Node",
+            "Null and Nothing"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "Which database query language is used for relational databases?",
+        "options": [
+            "SQL",
+            "NoSQL",
+            "DQL",
+            "HTML"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which CSS property is used to change the background color of an element?",
+        "options": [
+            "bgcolor",
+            "background-color",
+            "color-background",
+            "background"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "What does HTTP stand for?",
+        "options": [
+            "HyperText Transfer Protocol",
+            "HyperText Transfer Program",
+            "HyperText Transmission Protocol",
+            "Hyper Transfer Protocol"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is not a valid Python function?",
+        "options": [
+            "print()",
+            "input()",
+            "console.log()",
+            "len()"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct way to declare a variable in JavaScript?",
+        "options": [
+            "let x = 5;",
+            "var x = 5;",
+            "int x = 5;",
+            "declare x = 5;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the correct syntax to create a function in JavaScript?",
+        "options": [
+            "function myFunction() {}",
+            "func myFunction() {}",
+            "create myFunction() {}",
+            "function: myFunction() {}"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to handle asynchronous operations in JavaScript?",
+        "options": [
+            "callbacks",
+            "promises",
+            "async/await",
             "All of the above"
         ],
         "correct_option_id": 3
     },
     {
-        "type": "regular",
-        "question": "Would you invest in Ethereum if it introduces zero transaction fees?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is a major challenge for Ethereum in the DeFi space?",
+        "question": "Which of the following is a valid Python dictionary method?",
         "options": [
-            "Transaction fees",
-            "Smart contract security",
-            "Lack of liquidity",
-            "Regulation"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you prefer using Ethereum on mobile devices or desktops?",
-        "options": [
-            "Mobile",
-            "Desktop",
-            "Both"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum project is designed to provide a decentralized prediction market?",
-        "options": [
-            "Augur",
-            "Compound",
-            "Uniswap",
-            "Yearn.finance"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "What’s the most common use case for Ethereum in your opinion?",
-        "options": [
-            "DeFi",
-            "NFTs",
-            "Smart contracts",
-            "DAO governance"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What Ethereum-based token is used for governance on Uniswap?",
-        "options": [
-            "UNI",
-            "DAI",
-            "USDT",
-            "ETH"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you use Ethereum as a store of value?",
-        "options": [
-            "Yes",
-            "No",
-            "Occasionally"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does the term 'staking' refer to in Ethereum?",
-        "options": [
-            "Locking up tokens to support network security",
-            "Creating a smart contract",
-            "Minting NFTs",
-            "Buying Ethereum tokens"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum has enough scalability for future growth?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum upgrade introduced the concept of Proof of Stake?",
-        "options": [
-            "The Merge",
-            "London Hard Fork",
-            "Constantinople",
-            "Homestead"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How do you prefer to store your Ethereum tokens?",
-        "options": [
-            "Hot Wallet",
-            "Cold Wallet",
-            "Both",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is a smart contract on Ethereum?",
-        "options": [
-            "A transaction fee",
-            "A self-executing contract",
-            "A governance token",
-            "A decentralized app"
+            "append()",
+            "update()",
+            "add()",
+            "push()"
         ],
         "correct_option_id": 1
     },
     {
-        "type": "regular",
-        "question": "Do you think Ethereum will be able to handle global transaction volumes in the future?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What Ethereum protocol update aims to improve the gas fee market?",
+        "question": "Which CSS property is used to control the font size of an element?",
         "options": [
-            "EIP-1559",
-            "EIP-1551",
-            "EIP-4488",
-            "EIP-3074"
+            "font-size",
+            "text-size",
+            "font-style",
+            "text-font"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "Do you participate in yield farming on Ethereum?",
+        "type": "quiz",
+        "question": "Which HTML element is used to define a hyperlink?",
         "options": [
-            "Yes",
-            "No",
-            "Sometimes"
-        ]
+            "<button>",
+            "<a>",
+            "<link>",
+            "<nav>"
+        ],
+        "correct_option_id": 1
     },
     {
         "type": "quiz",
-        "question": "What Ethereum token is used to pay for transaction fees?",
+        "question": "Which version control system is commonly used in software development?",
         "options": [
-            "ETH",
-            "DAI",
-            "USDT",
-            "BTC"
+            "Git",
+            "Subversion",
+            "Mercurial",
+            "All of the above"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "Would you consider Ethereum to be the leader in the blockchain space?",
+        "type": "quiz",
+        "question": "Which of the following is a Python web framework?",
         "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
+            "Django",
+            "Spring",
+            "Flask",
+            "Both Django and Flask"
+        ],
+        "correct_option_id": 3
     },
     {
         "type": "quiz",
-        "question": "Which Ethereum feature allows developers to create decentralized applications?",
+        "question": "What does 'var' represent in JavaScript?",
         "options": [
-            "Smart contracts",
-            "Proof of Work",
-            "Gas fees",
-            "Validators"
+            "Variable",
+            "Value",
+            "Vector",
+            "View"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "What do you think about the rise of Layer 2 solutions for Ethereum?",
+        "type": "quiz",
+        "question": "Which of these is the correct way to create an array in JavaScript?",
         "options": [
-            "Positive",
-            "Negative",
-            "Neutral",
-            "Not sure"
-        ]
+            "var arr = {}",
+            "var arr = []",
+            "var arr = ()",
+            "var arr = //"
+        ],
+        "correct_option_id": 1
     },
     {
         "type": "quiz",
-        "question": "Which Layer 2 solution uses optimistic rollups?",
+        "question": "Which of the following is a method used to convert a string to lowercase in JavaScript?",
         "options": [
-            "Arbitrum",
-            "zkSync",
-            "Polygon",
-            "Solana"
+            "toLowerCase()",
+            "toLower()",
+            "lowerCase()",
+            "downCase()"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "How do you feel about Ethereum's gas fees during high network activity?",
+        "type": "quiz",
+        "question": "What is the purpose of the 'break' statement in loops?",
         "options": [
-            "Frustrating",
-            "Acceptable",
-            "Not an issue"
-        ]
+            "It ends the current iteration of the loop.",
+            "It skips the current iteration and proceeds to the next one.",
+            "It exits the loop entirely.",
+            "It restarts the loop."
+        ],
+        "correct_option_id": 2
     },
     {
         "type": "quiz",
-        "question": "What does 'EIP' stand for in Ethereum?",
+        "question": "Which of these is a valid SQL query?",
         "options": [
-            "Ethereum Improvement Proposal",
-            "Ethereum Internal Process",
-            "Ethereum Integrated Protocol",
-            "Ether Initial Protocol"
+            "SELECT * FROM table;",
+            "GET * FROM table;",
+            "FETCH ALL FROM table;",
+            "INSERT * INTO table;"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "Would you recommend Ethereum to a new blockchain enthusiast?",
+        "type": "quiz",
+        "question": "Which of the following is used to import a module in Python?",
         "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
+            "import module",
+            "import module()",
+            "include module",
+            "using module"
+        ],
+        "correct_option_id": 0
     },
     {
         "type": "quiz",
-        "question": "Which Ethereum project allows for decentralized finance (DeFi) protocols?",
+        "question": "What is the purpose of the 'git push' command?",
         "options": [
-            "MakerDAO",
-            "Aave",
-            "Compound",
+            "To upload changes to the remote repository",
+            "To create a new commit",
+            "To merge branches",
+            "To clone a repository"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which programming language is used to build iOS apps?",
+        "options": [
+            "Swift",
+            "Kotlin",
+            "JavaScript",
+            "C#"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is a common use case for NoSQL databases?",
+        "options": [
+            "Storing large volumes of unstructured data",
+            "Storing transactional data",
+            "Storing data in a structured format",
+            "All of the above"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to create a variable in JavaScript?",
+        "options": [
+            "var",
+            "let",
+            "const",
             "All of the above"
         ],
         "correct_option_id": 3
     },
     {
-        "type": "regular",
-        "question": "What aspect of Ethereum's future excites you the most?",
-        "options": [
-            "Scalability improvements",
-            "NFTs",
-            "Smart contracts",
-            "Decentralized finance"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "Which of these is an Ethereum-based decentralized exchange?",
+        "question": "Which HTML tag is used to define an unordered list?",
         "options": [
-            "Uniswap",
-            "Binance",
-            "Coinbase",
-            "Kraken"
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<list>"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "What do you think Ethereum's transition to Ethereum 2.0 will bring?",
-        "options": [
-            "Faster transactions",
-            "Lower fees",
-            "Improved security",
-            "All of the above"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is the function of an Ethereum miner?",
+        "question": "What does 'CSS' stand for?",
         "options": [
-            "Mining tokens",
-            "Validating transactions",
-            "Creating smart contracts",
-            "Running dApps"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Do you believe Ethereum will eventually be fully decentralized?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum upgrade aims to reduce gas fees and improve network efficiency?",
-        "options": [
-            "EIP-1559",
-            "EIP-1488",
-            "EIP-3074",
-            "Ethereum 2.0"
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Colorful Style Sheets"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "How do you feel about Ethereum's transition to Proof of Stake?",
-        "options": [
-            "Excited",
-            "Indifferent",
-            "Concerned",
-            "Confused"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is Ethereum's native token?",
-        "options": [
-            "ETH",
-            "BTC",
-            "DOGE",
-            "ADA"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you believe Ethereum's current gas fees are sustainable long-term?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is Ethereum's largest competitor in the smart contract blockchain space?",
-        "options": [
-            "Solana",
-            "Polkadot",
-            "Cardano",
-            "Avalanche"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How often do you check the Ethereum network updates?",
-        "options": [
-            "Daily",
-            "Weekly",
-            "Monthly",
-            "Rarely"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which project introduced the concept of decentralized autonomous organizations (DAOs) on Ethereum?",
-        "options": [
-            "The DAO",
-            "MakerDAO",
-            "Aave",
-            "Uniswap"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum's security features are enough to handle attacks?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the primary function of Ethereum's Gas?",
-        "options": [
-            "To pay miners for validation",
-            "To stake tokens",
-            "To purchase NFTs",
-            "To enable smart contracts"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you participate in Ethereum staking?",
-        "options": [
-            "Yes",
-            "No",
-            "Not yet but planning to"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the maximum transaction limit on Ethereum gas?",
-        "options": [
-            "There is no limit",
-            "50 Gwei",
-            "100 Gwei",
-            "200 Gwei"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How much do you trust Ethereum's governance structure?",
-        "options": [
-            "Very much",
-            "Moderately",
-            "Not at all",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does the term 'EVM' stand for?",
-        "options": [
-            "Ethereum Virtual Machine",
-            "Ethereum Validator Mechanism",
-            "Enhanced Virtual Machine",
-            "Ethereum Value Market"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Would you consider investing in Ethereum long-term?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of these is the Ethereum scaling solution based on zk-rollups?",
-        "options": [
-            "zkSync",
-            "Arbitrum",
-            "Optimism",
-            "Polygon"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum is a good choice for building enterprise-level dApps?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the Ethereum address format for sending tokens?",
-        "options": [
-            "0x",
-            "0b",
-            "0y",
-            "0t"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How satisfied are you with Ethereum's transaction speed?",
-        "options": [
-            "Very satisfied",
-            "Somewhat satisfied",
-            "Not satisfied",
-            "No opinion"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What Ethereum-based token is used as collateral in decentralized lending platforms?",
-        "options": [
-            "ETH",
-            "DAI",
-            "USDT",
-            "BNB"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Do you use Ethereum for non-financial purposes (e.g., NFTs, gaming)?",
-        "options": [
-            "Yes",
-            "No",
-            "Occasionally"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of the following is an Ethereum token standard for NFTs?",
-        "options": [
-            "ERC-20",
-            "ERC-721",
-            "ERC-1155",
-            "Both 2 and 3"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Would you recommend using Ethereum for building decentralized finance (DeFi) applications?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum upgrade is designed to improve the gas fee structure?",
-        "options": [
-            "EIP-1559",
-            "EIP-4488",
-            "EIP-3074",
-            "EIP-3656"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "What do you think about Ethereum's environmental impact after transitioning to Proof of Stake?",
-        "options": [
-            "Improved",
-            "Still concerns",
-            "No opinion",
-            "No change"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the Ethereum Foundation's role?",
-        "options": [
-            "Building Ethereum's ecosystem",
-            "Governance of Ethereum",
-            "Protocol mining",
-            "Both 1 and 2"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you believe Ethereum's market cap will surpass Bitcoin in the future?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of these is NOT a use case for Ethereum?",
-        "options": [
-            "Building NFTs",
-            "Lending and borrowing",
-            "Storing personal data",
-            "Decentralized gaming"
-        ],
-        "correct_option_id": 2
-    },
-    {
-        "type": "regular",
-        "question": "How do you feel about Ethereum's price fluctuations?",
-        "options": [
-            "Exciting",
-            "Stressful",
-            "Indifferent",
-            "Concerned"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the Ethereum Virtual Machine (EVM) responsible for?",
-        "options": [
-            "Executing smart contracts",
-            "Mining Ether",
-            "Storing transaction data",
-            "Governance decisions"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum will become more user-friendly for non-technical users?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum token standard allows for creating fungible tokens?",
-        "options": [
-            "ERC-20",
-            "ERC-721",
-            "ERC-1155",
-            "ERC-1400"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How often do you participate in Ethereum-related community discussions?",
-        "options": [
-            "Daily",
-            "Weekly",
-            "Monthly",
-            "Rarely"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does Ethereum's Proof of Stake consensus mechanism rely on?",
-        "options": [
-            "Staking ETH",
-            "Mining",
-            "Burning tokens",
-            "Storing tokens"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Would you consider running an Ethereum node to support the network?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the primary function of a decentralized oracle in Ethereum?",
-        "options": [
-            "Providing real-world data",
-            "Storing transaction history",
-            "Storing smart contracts",
-            "Validating transactions"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How important do you think Ethereum's developer community is for its future success?",
-        "options": [
-            "Extremely important",
-            "Somewhat important",
-            "Not important",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of the following is a benefit of Ethereum's Proof of Stake over Proof of Work?",
-        "options": [
-            "Energy efficiency",
-            "Faster transactions",
-            "Lower fees",
-            "Higher security"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum can eventually scale without compromising decentralization?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of these is a decentralized exchange on Ethereum?",
-        "options": [
-            "Uniswap",
-            "Binance",
-            "Coinbase",
-            "Kraken"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How do you feel about Ethereum's competition from other blockchain platforms?",
-        "options": [
-            "Excited",
-            "Concerned",
-            "Indifferent",
-            "Neutral"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the main purpose of Ethereum's network upgrade 'The Merge'?",
-        "options": [
-            "Transition to Proof of Stake",
-            "Increase block size",
-            "Reduce transaction fees",
-            "Improve smart contract security"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum has potential to become a global settlement layer?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum network upgrade introduced the concept of sharding?",
-        "options": [
-            "Ethereum 2.0",
-            "EIP-1559",
-            "The Merge",
-            "Serenity"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "What is your opinion on Ethereum's upcoming Layer 2 scaling solutions?",
-        "options": [
-            "Excited",
-            "Cautious",
-            "Indifferent",
-            "Skeptical"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum token is widely used as collateral for decentralized lending platforms?",
-        "options": [
-            "ETH",
-            "DAI",
-            "USDT",
-            "BTC"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum will become the primary blockchain for smart contracts?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the function of a smart contract on the Ethereum network?",
-        "options": [
-            "Automates agreements",
-            "Creates NFTs",
-            "Validates transactions",
-            "Mines blocks"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How do you feel about Ethereum's transition to Proof of Stake?",
-        "options": [
-            "Excited",
-            "Neutral",
-            "Worried",
-            "Indifferent"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum-based protocol is focused on creating stablecoins?",
-        "options": [
-            "MakerDAO",
-            "Aave",
-            "Uniswap",
-            "Synthetix"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How do you feel about Ethereum's use in the DeFi space?",
-        "options": [
-            "Positive",
-            "Negative",
-            "Neutral"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does the term 'gas' refer to in the Ethereum network?",
-        "options": [
-            "Transaction fees",
-            "Network upgrades",
-            "Smart contract execution",
-            "Validator rewards"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum can maintain its position as a leader in the blockchain space?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum Layer 2 scaling solution uses zk-rollups?",
-        "options": [
-            "zkSync",
-            "Arbitrum",
-            "Optimism",
-            "Polygon"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "What do you think Ethereum's price will be in 5 years?",
-        "options": [
-            "Increase significantly",
-            "Stay the same",
-            "Decrease significantly",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum update introduced the first deflationary mechanism?",
-        "options": [
-            "EIP-1559",
-            "The Merge",
-            "EIP-4488",
-            "Serenity"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How often do you interact with decentralized applications (dApps)?",
-        "options": [
-            "Daily",
-            "Weekly",
-            "Occasionally",
-            "Never"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum update introduces a mechanism to reduce transaction fees by burning part of the fees?",
-        "options": [
-            "EIP-1559",
-            "The Merge",
-            "Ethereum 2.0",
-            "Serenity"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum will see broader adoption outside of crypto?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of the following Ethereum Layer 2 solutions is based on optimistic rollups?",
-        "options": [
-            "Arbitrum",
-            "zkSync",
-            "Polygon",
-            "Optimism"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "type": "regular",
-        "question": "Would you like Ethereum to improve its privacy features?",
-        "options": [
-            "Yes",
-            "No",
-            "I don't care"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does the term 'gas' represent in Ethereum?",
-        "options": [
-            "Transaction fees",
-            "Validators' rewards",
-            "Block size",
-            "Storage capacity"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How much do you rely on Ethereum for personal investments?",
-        "options": [
-            "Highly",
-            "Moderately",
-            "Occasionally",
-            "Not at all"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which platform is a decentralized exchange (DEX) built on Ethereum?",
-        "options": [
-            "Uniswap",
-            "Coinbase",
-            "Kraken",
-            "Binance"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Would you consider developing a decentralized application (dApp) on Ethereum?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum token standard is used for creating non-fungible tokens (NFTs)?",
-        "options": [
-            "ERC-20",
-            "ERC-721",
-            "ERC-1155",
-            "ERC-1400"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Do you trust Ethereum’s future as a decentralized network?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum upgrade introduced staking as part of the Proof of Stake transition?",
-        "options": [
-            "EIP-1559",
-            "Ethereum 2.0",
-            "The Merge",
-            "Serenity"
-        ],
-        "correct_option_id": 2
-    },
-    {
-        "type": "regular",
-        "question": "How often do you check Ethereum's price?",
-        "options": [
-            "Multiple times a day",
-            "Once a day",
-            "Weekly",
-            "Rarely"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which project is Ethereum's largest competitor in the smart contract space?",
-        "options": [
-            "Polkadot",
-            "Cardano",
-            "Solana",
-            "Avalanche"
-        ],
-        "correct_option_id": 2
-    },
-    {
-        "type": "regular",
-        "question": "Would you prefer Ethereum to remain a decentralized network even if it comes at a cost?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What Ethereum token standard is used for creating fungible tokens?",
-        "options": [
-            "ERC-20",
-            "ERC-721",
-            "ERC-1155",
-            "ERC-1400"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Would you invest in Ethereum-based projects?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of these is a feature of Ethereum’s Proof of Stake consensus mechanism?",
-        "options": [
-            "Low energy consumption",
-            "Higher rewards for miners",
-            "Faster transactions",
-            "Decentralized governance"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you use Ethereum to transfer money?",
-        "options": [
-            "Yes",
-            "No",
-            "Sometimes"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What is the Ethereum gas limit?",
-        "options": [
-            "50 Gwei",
-            "100 Gwei",
-            "There is no fixed limit",
-            "2 ETH"
-        ],
-        "correct_option_id": 2
-    },
-    {
-        "type": "regular",
-        "question": "Are you interested in the Ethereum 2.0 upgrade?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "What does the term 'DeFi' stand for?",
-        "options": [
-            "Decentralized Finance",
-            "Digital Finance",
-            "Dynamic Finance",
-            "Direct Finance"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum can handle mass adoption of decentralized finance applications?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum scaling solution uses zk-rollups for faster transactions?",
-        "options": [
-            "zkSync",
-            "Optimism",
-            "Arbitrum",
-            "Polygon"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How do you feel about the increasing adoption of Ethereum by enterprises?",
-        "options": [
-            "Excited",
-            "Indifferent",
-            "Concerned",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which token is used as the collateral for Ethereum-based stablecoins like DAI?",
-        "options": [
-            "ETH",
-            "BTC",
-            "USDT",
-            "DAI"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How often do you participate in Ethereum-based governance proposals?",
-        "options": [
-            "Frequently",
-            "Occasionally",
-            "Never",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum update will fully transition Ethereum to Proof of Stake?",
-        "options": [
-            "EIP-1559",
-            "The Merge",
-            "Ethereum 2.0",
-            "Serenity"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Do you think Ethereum is the best platform for decentralized finance applications?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of the following is an Ethereum-based stablecoin?",
-        "options": [
-            "DAI",
-            "USDT",
-            "USDC",
+        "question": "Which of the following is used to add comments in JavaScript?",
+        "options": [
+            "// comment",
+            "<!-- comment -->",
+            "/* comment */",
             "All of the above"
         ],
         "correct_option_id": 3
     },
     {
-        "type": "regular",
-        "question": "Would you like to see Ethereum incorporate more privacy-focused features?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is the main purpose of Ethereum’s 'gas'?",
+        "question": "Which CSS property is used to change the font of an element?",
         "options": [
-            "To power smart contract execution",
-            "To reward miners",
-            "To store transactions",
-            "To enable staking"
+            "font-family",
+            "text-font",
+            "font-style",
+            "text-family"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "Would you like to stake Ethereum to help secure the network?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is the maximum gas price on Ethereum?",
+        "question": "Which of these is a type of JavaScript function?",
         "options": [
-            "There is no limit",
-            "100 Gwei",
-            "500 Gwei",
-            "200 Gwei"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How secure do you feel using Ethereum for financial transactions?",
-        "options": [
-            "Very secure",
-            "Somewhat secure",
-            "Not secure",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which of the following is a common use of Ethereum besides DeFi?",
-        "options": [
-            "NFTs",
-            "Gaming",
-            "Voting",
+            "Named functions",
+            "Anonymous functions",
+            "Arrow functions",
             "All of the above"
         ],
         "correct_option_id": 3
     },
     {
-        "type": "regular",
-        "question": "Would you use Ethereum to build a personal finance application?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is the gas limit for Ethereum blocks?",
+        "question": "Which of the following is a front-end JavaScript framework?",
         "options": [
-            "15 million gas",
-            "20 million gas",
-            "30 million gas",
-            "50 million gas"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "type": "regular",
-        "question": "Would you prefer Ethereum to adopt more enterprise-focused features?",
-        "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum token is commonly used for staking in DeFi protocols?",
-        "options": [
-            "ETH",
-            "DAI",
-            "USDC",
-            "USDT"
+            "React",
+            "Spring",
+            "Django",
+            "Flask"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "Do you think Ethereum will remain decentralized as it scales?",
+        "type": "quiz",
+        "question": "In Python, which of the following can be used to handle exceptions?",
         "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
+            "try/except",
+            "catch/throw",
+            "if/else",
+            "raise/handle"
+        ],
+        "correct_option_id": 0
     },
     {
         "type": "quiz",
-        "question": "Which platform is a decentralized exchange built on Ethereum?",
+        "question": "Which of the following commands is used to initialize a new Git repository?",
         "options": [
-            "Uniswap",
-            "Sushiswap",
-            "PancakeSwap",
+            "git init",
+            "git start",
+            "git create",
+            "git repo"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a widely-used JavaScript package manager?",
+        "options": [
+            "npm",
+            "pip",
+            "gem",
+            "composer"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a JavaScript method used to find the length of an array?",
+        "options": [
+            "length()",
+            "size()",
+            "getLength()",
+            "length"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is not a valid JavaScript data type?",
+        "options": [
+            "String",
+            "Integer",
+            "Object",
+            "Boolean"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "In Python, what is the keyword used to define a class?",
+        "options": [
+            "class",
+            "def",
+            "object",
+            "struct"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a type of SQL join?",
+        "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of the 'return' statement in a function?",
+        "options": [
+            "To exit the function",
+            "To return a value from the function",
+            "To define the function's parameters",
+            "To log the function's result"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to insert an image in HTML?",
+        "options": [
+            "<img>",
+            "<image>",
+            "<src>",
+            "<picture>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the default file extension for Python files?",
+        "options": [
+            ".py",
+            ".java",
+            ".html",
+            ".cpp"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to select an element by its ID in JavaScript?",
+        "options": [
+            "getElementById()",
+            "getById()",
+            "querySelector()",
+            "getElement()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a popular JavaScript build tool?",
+        "options": [
+            "Webpack",
+            "Jest",
+            "Mocha",
+            "Babel"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following can be used to style elements in HTML?",
+        "options": [
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "PHP"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which programming language is known for its use in data analysis and machine learning?",
+        "options": [
+            "Python",
+            "Java",
+            "C++",
+            "Ruby"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "In CSS, which property is used to set the background color of an element?",
+        "options": [
+            "background-color",
+            "color",
+            "bg-color",
+            "background"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a valid variable declaration in JavaScript?",
+        "options": [
+            "let x = 5",
+            "x = 5",
+            "var 5 = x",
+            "const x ="
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the 'for' loop do in most programming languages?",
+        "options": [
+            "It repeats a block of code a specified number of times.",
+            "It pauses the program.",
+            "It checks for errors in code.",
+            "It defines a function."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is an example of an event handler in JavaScript?",
+        "options": [
+            "onclick",
+            "onchange",
+            "onload",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "In which programming language is the Django framework used?",
+        "options": [
+            "Python",
+            "JavaScript",
+            "Ruby",
+            "PHP"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the primary function of the 'git clone' command?",
+        "options": [
+            "It copies a remote repository to your local machine.",
+            "It creates a new commit in the repository.",
+            "It merges two branches.",
+            "It checks out a branch."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which HTML tag is used to define a table row?",
+        "options": [
+            "<tr>",
+            "<th>",
+            "<td>",
+            "<table>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which programming language is used for Android app development?",
+        "options": [
+            "Java",
+            "Swift",
+            "Kotlin",
+            "Both Java and Kotlin"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of a 'constructor' in object-oriented programming?",
+        "options": [
+            "It initializes an object's properties.",
+            "It destroys an object.",
+            "It defines the behavior of a class.",
+            "It allows for inheritance."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to define a function in Python?",
+        "options": [
+            "function",
+            "def",
+            "method",
+            "func"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a correct way to write a comment in CSS?",
+        "options": [
+            "/* comment */",
+            "// comment",
+            "<!-- comment -->",
+            "# comment"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a valid way to check if a number is odd in Python?",
+        "options": [
+            "if x % 2 == 1",
+            "if x / 2 == 1",
+            "if x % 2 != 0",
+            "if x // 2 == 1"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of these is a correct way to create an array in JavaScript?",
+        "options": [
+            "var arr = [1, 2, 3]",
+            "var arr = (1, 2, 3)",
+            "arr = {1, 2, 3}",
+            "var arr = 1, 2, 3"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct syntax for an 'if' statement in JavaScript?",
+        "options": [
+            "if (condition) { // code }",
+            "if { condition }",
+            "if condition then { code }",
+            "if (condition) // code"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which JavaScript method is used to remove the last element of an array?",
+        "options": [
+            "pop()",
+            "shift()",
+            "unshift()",
+            "remove()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a type of cloud computing model?",
+        "options": [
+            "IaaS",
+            "PaaS",
+            "SaaS",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "What does HTTP stand for?",
+        "options": [
+            "Hypertext Transfer Protocol",
+            "Hyper Transfer Protocol",
+            "Hyperlink Transfer Protocol",
+            "Hypertext Test Protocol"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a correct way to create a variable in Ruby?",
+        "options": [
+            "x = 5",
+            "var x = 5",
+            "let x = 5",
+            "int x = 5"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which command is used to update a Git repository with changes from the remote repository?",
+        "options": [
+            "git pull",
+            "git fetch",
+            "git merge",
+            "git push"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which CSS property is used to change the text color?",
+        "options": [
+            "color",
+            "text-color",
+            "font-color",
+            "text-style"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct syntax to import a module in Python?",
+        "options": [
+            "import module",
+            "from module import",
+            "include module",
+            "use module"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which command is used to create a new Git branch?",
+        "options": [
+            "git branch [branch-name]",
+            "git create [branch-name]",
+            "git new branch [branch-name]",
+            "git checkout [branch-name]"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of the 'await' keyword in JavaScript?",
+        "options": [
+            "It pauses the execution of an async function until a promise is resolved.",
+            "It creates a new promise.",
+            "It declares a variable.",
+            "It loops through asynchronous code."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to declare a constant in JavaScript?",
+        "options": [
+            "const",
+            "let",
+            "var",
+            "static"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which Python module is used to handle HTTP requests?",
+        "options": [
+            "requests",
+            "http",
+            "urllib",
+            "socket"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct syntax for an 'else if' statement in JavaScript?",
+        "options": [
+            "else if (condition) { // code }",
+            "else { if (condition) { // code } }",
+            "else (if condition) { // code }",
+            "else (condition) { // code }"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the correct syntax for creating a comment in HTML?",
+        "options": [
+            "<!-- comment -->",
+            "// comment",
+            "# comment",
+            "/ comment /"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is not a popular frontend JavaScript framework?",
+        "options": [
+            "React",
+            "Angular",
+            "Vue",
+            "Django"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to read input from the user in Python?",
+        "options": [
+            "input()",
+            "read()",
+            "get()",
+            "scan()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the CSS 'display' property control?",
+        "options": [
+            "The layout and visibility of an element",
+            "The font size of an element",
+            "The background color of an element",
+            "The position of an element"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct syntax to declare a variable in Java?",
+        "options": [
+            "int x = 5;",
+            "x = 5;",
+            "declare int x = 5;",
+            "let x = 5;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which method in JavaScript is used to add a new item to the end of an array?",
+        "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used for unit testing in JavaScript?",
+        "options": [
+            "Jest",
+            "Express",
+            "Node.js",
+            "MongoDB"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the default value of a Boolean variable in Java?",
+        "options": [
+            "false",
+            "null",
+            "undefined",
+            "true"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used for styling in a React app?",
+        "options": [
+            "CSS-in-JS",
+            "HTML",
+            "XML",
+            "SASS"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct way to define an array in Java?",
+        "options": [
+            "int[] arr = new int[5];",
+            "arr = [1, 2, 3]",
+            "arr = (1, 2, 3)",
+            "int arr[] = 1, 2, 3"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the main function of the 'git clone' command?",
+        "options": [
+            "To create a copy of a remote repository",
+            "To pull changes from the remote repository",
+            "To commit changes to the repository",
+            "To push local changes to the remote repository"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following data types is not supported by Python?",
+        "options": [
+            "Character",
+            "List",
+            "Tuple",
+            "Dictionary"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of a constructor in a class?",
+        "options": [
+            "To initialize the object's state",
+            "To call a method of the class",
+            "To destroy an object",
+            "To define the class's behavior"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct way to declare a function in JavaScript?",
+        "options": [
+            "function myFunction() {}",
+            "func myFunction() {}",
+            "def myFunction() {}",
+            "function: myFunction() {}"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of the 'float' data type in C++?",
+        "options": [
+            "To store decimal numbers",
+            "To store whole numbers",
+            "To store characters",
+            "To store Boolean values"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "In which part of the HTML document would you include external JavaScript?",
+        "options": [
+            "In the <head> section",
+            "In the <body> section",
+            "Inside <script> tags",
+            "In a separate .js file linked externally"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which keyword is used to define a constant in JavaScript?",
+        "options": [
+            "const",
+            "constant",
+            "let",
+            "static"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the 'console.log()' method do in JavaScript?",
+        "options": [
+            "Outputs a message to the console",
+            "Logs a message to a file",
+            "Alerts the user with a message",
+            "Changes the background color of the page"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which CSS property is used to change the background color of an element?",
+        "options": [
+            "background-color",
+            "bg-color",
+            "color-background",
+            "bg"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the primary purpose of the 'return' statement in a function?",
+        "options": [
+            "To exit the function and send a value back to the caller",
+            "To output a message",
+            "To create a loop",
+            "To call another function"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is an example of an object in JavaScript?",
+        "options": [
+            "let person = { name: 'John', age: 30 };",
+            "let person = ['John', 30];",
+            "let person = 'John';",
+            "let person = 30;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which HTML element is used to define the title of a webpage?",
+        "options": [
+            "<title>",
+            "<head>",
+            "<meta>",
+            "<header>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to create a new array in Python?",
+        "options": [
+            "list()",
+            "array()",
+            "new Array()",
+            "createArray()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct syntax for importing a module in Python?",
+        "options": [
+            "import module_name",
+            "include module_name",
+            "use module_name",
+            "import('module_name')"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does 'HTTP' stand for?",
+        "options": [
+            "HyperText Transfer Protocol",
+            "Hyper Transfer Text Protocol",
+            "Home Text Transfer Protocol",
+            "HyperText Technology Protocol"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which CSS property is used to control the font size of an element?",
+        "options": [
+            "font-size",
+            "text-size",
+            "font",
+            "text-style"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which JavaScript method is used to remove the last element from an array?",
+        "options": [
+            "pop()",
+            "shift()",
+            "slice()",
+            "splice()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which programming language is primarily used for iOS app development?",
+        "options": [
+            "Swift",
+            "Java",
+            "C++",
+            "Ruby"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct way to access an element by its ID in JavaScript?",
+        "options": [
+            "document.getElementById('id')",
+            "document.querySelector('#id')",
+            "getElementById('id')",
+            "document.getElementById(id)"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the primary purpose of the 'SELECT' statement in SQL?",
+        "options": [
+            "To retrieve data from a database",
+            "To delete data from a database",
+            "To insert data into a database",
+            "To update data in a database"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "In Python, which keyword is used to define a function?",
+        "options": [
+            "def",
+            "function",
+            "func",
+            "declare"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is an example of an invalid variable name in JavaScript?",
+        "options": [
+            "1variable",
+            "_variable",
+            "$variable",
+            "variable1"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the 'continue' statement do in a loop in most programming languages?",
+        "options": [
+            "Skips the current iteration and moves to the next one",
+            "Ends the loop",
+            "Breaks the loop entirely",
+            "Pauses the loop"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the default value of a boolean variable in Java?",
+        "options": [
+            "false",
+            "true",
+            "null",
+            "undefined"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to iterate over a dictionary in Python?",
+        "options": [
+            "for key, value in dict.items()",
+            "for key, value in dict",
+            "for dict in items()",
+            "for each in dict"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which method is used to add an element to the end of an array in JavaScript?",
+        "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is an incorrect way to define a class in Python?",
+        "options": [
+            "class MyClass():",
+            "class MyClass:",
+            "class MyClass[]:",
+            "class MyClass()"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following methods is used to round a number in JavaScript?",
+        "options": [
+            "Math.round()",
+            "Math.floor()",
+            "Math.ceil()",
+            "Math.trunc()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which HTML element is used to display an image?",
+        "options": [
+            "<img>",
+            "<image>",
+            "<src>",
+            "<picture>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct syntax for an if-else statement in Python?",
+        "options": [
+            "if condition: else:",
+            "if condition { else }",
+            "if condition: else: ",
+            "if (condition) { else }"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "type": "quiz",
+        "question": "What is the correct way to access an element in a list in Python?",
+        "options": [
+            "list[index]",
+            "list(index)",
+            "list[index[]]",
+            "list.get(index)"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which command is used to create a new directory in Linux?",
+        "options": [
+            "mkdir",
+            "newdir",
+            "create",
+            "dircreate"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to create a new object in JavaScript?",
+        "options": [
+            "let obj = {}",
+            "let obj = new Object()",
+            "let obj = Object.create()",
+            "All of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to create a new instance of a class in JavaScript?",
+        "options": [
+            "new ClassName()",
+            "ClassName.new()",
+            "ClassName()",
+            "new ClassName"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct CSS syntax to change the background color of an element?",
+        "options": [
+            "background-color: #FFF",
+            "bgcolor: #FFF",
+            "color-background: #FFF",
+            "background: color(#FFF)"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a JavaScript framework?",
+        "options": [
+            "React",
+            "Django",
+            "Laravel",
+            "Flask"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the output of the following Python code: 'print(2 ** 3)'?",
+        "options": [
+            "8",
+            "6",
+            "5",
+            "2^3"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following HTML elements is used to create a hyperlink?",
+        "options": [
+            "<a>",
+            "<link>",
+            "<hyperlink>",
+            "<href>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the default port number for HTTP?",
+        "options": [
+            "80",
+            "443",
+            "21",
+            "8080"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a correct declaration of a function in JavaScript?",
+        "options": [
+            "function myFunction() {}",
+            "function = myFunction() {}",
+            "function: myFunction() {}",
+            "myFunction() => {}"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to define a constant in JavaScript?",
+        "options": [
+            "const",
+            "let",
+            "var",
+            "constant"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which Python function is used to read input from the user?",
+        "options": [
+            "input()",
+            "read()",
+            "scanf()",
+            "getInput()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a SQL command to remove a table from a database?",
+        "options": [
+            "DROP TABLE",
+            "DELETE TABLE",
+            "REMOVE TABLE",
+            "CLEAR TABLE"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to style a webpage in HTML?",
+        "options": [
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "HTML"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of the 'id' attribute in HTML?",
+        "options": [
+            "To uniquely identify an element",
+            "To specify the class of an element",
+            "To link to a CSS file",
+            "To define a default value"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a correct way to define a string in JavaScript?",
+        "options": [
+            "let str = 'Hello, world!'",
+            "let str = Hello, world!",
+            "let str = \"Hello, world!\"",
+            "Both 1 and 3"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to access a DOM element in JavaScript?",
+        "options": [
+            "document.getElementById()",
+            "document.querySelector()",
+            "document.getElementByClass()",
             "Both 1 and 2"
         ],
         "correct_option_id": 3
     },
     {
-        "type": "regular",
-        "question": "How confident are you in Ethereum's ability to scale effectively?",
+        "type": "quiz",
+        "question": "What does the 'console.log()' function do in JavaScript?",
         "options": [
-            "Very confident",
-            "Somewhat confident",
-            "Not confident",
-            "Not sure"
-        ]
+            "Logs a message to the console",
+            "Shows a prompt to the user",
+            "Opens a new console window",
+            "Displays an alert"
+        ],
+        "correct_option_id": 0
     },
     {
         "type": "quiz",
-        "question": "What does Ethereum’s 'The Merge' refer to?",
+        "question": "Which of the following is used to create a new thread in Python?",
         "options": [
-            "Transition to Proof of Stake",
-            "Increase in block size",
-            "Migration to a new consensus model",
+            "threading.Thread()",
+            "new_thread()",
+            "create_thread()",
+            "thread()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a valid way to add a comment in JavaScript?",
+        "options": [
+            "// This is a comment",
+            "/* This is a comment */",
+            "# This is a comment",
+            "Both 1 and 2"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to declare a variable in JavaScript?",
+        "options": [
+            "let",
+            "var",
+            "const",
             "All of the above"
         ],
-        "correct_option_id": 0
-    },
-    {
-        "type": "regular",
-        "question": "How do you feel about Ethereum's fees?",
-        "options": [
-            "High",
-            "Moderate",
-            "Low",
-            "Not sure"
-        ]
+        "correct_option_id": 3
     },
     {
         "type": "quiz",
-        "question": "Which Ethereum project is focused on privacy enhancements?",
+        "question": "Which of the following is used to import a module in Python?",
         "options": [
-            "Aztec Protocol",
-            "Uniswap",
-            "MakerDAO",
-            "Chainlink"
+            "import module_name",
+            "include module_name",
+            "using module_name",
+            "require module_name"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "Would you use Ethereum to pay for goods and services?",
-        "options": [
-            "Yes",
-            "No",
-            "Maybe"
-        ]
-    },
-    {
         "type": "quiz",
-        "question": "What is the Ethereum Virtual Machine (EVM)?",
+        "question": "Which of the following is the correct syntax to create a class in Python?",
         "options": [
-            "A tool for developers",
-            "A blockchain scaling solution",
-            "A system that executes smart contracts",
-            "A cryptocurrency wallet"
-        ],
-        "correct_option_id": 2
-    },
-    {
-        "type": "regular",
-        "question": "How frequently do you use Ethereum for transactions?",
-        "options": [
-            "Daily",
-            "Weekly",
-            "Occasionally",
-            "Never"
-        ]
-    },
-    {
-        "type": "quiz",
-        "question": "Which Ethereum improvement proposal (EIP) introduced a deflationary mechanism for gas fees?",
-        "options": [
-            "EIP-1559",
-            "The Merge",
-            "Ethereum 2.0",
-            "Serenity"
+            "class MyClass:",
+            "class MyClass[]:",
+            "def class MyClass:",
+            "class MyClass()"
         ],
         "correct_option_id": 0
     },
     {
-        "type": "regular",
-        "question": "Would you prefer Ethereum's fees to be more predictable?",
+        "type": "quiz",
+        "question": "Which of the following is the correct syntax to create a function in JavaScript?",
         "options": [
-            "Yes",
-            "No",
-            "Not sure"
-        ]
+            "function myFunction() {}",
+            "function = myFunction() {}",
+            "myFunction() => {}",
+            "def myFunction()"
+        ],
+        "correct_option_id": 0
     },
     {
         "type": "quiz",
-        "question": "Which Ethereum-based token is commonly used as collateral in decentralized finance (DeFi) protocols?",
+        "question": "Which of the following is the correct way to call a function in Python?",
         "options": [
-            "ETH",
-            "USDC",
-            "USDT",
-            "DAI"
+            "myFunction()",
+            "call myFunction()",
+            "function myFunction()",
+            "myFunction.call()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of the 'self' keyword in Python?",
+        "options": [
+            "To refer to the instance of the class",
+            "To create a new object",
+            "To define a class method",
+            "To reference the parent class"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to iterate over a list in Python?",
+        "options": [
+            "for item in list",
+            "while list",
+            "for (item = 0; item < list.length; item++)",
+            "list.forEach(item)"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of 'git clone' in Git?",
+        "options": [
+            "To copy a repository to your local machine",
+            "To update a repository",
+            "To delete a repository",
+            "To merge branches"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a correct way to link a CSS file in an HTML document?",
+        "options": [
+            "<link rel='stylesheet' href='styles.css'>",
+            "<css href='styles.css'>",
+            "<style src='styles.css'>",
+            "<stylesheet>styles.css</stylesheet>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct way to define a variable in Python?",
+        "options": [
+            "variable_name = value",
+            "let variable_name = value",
+            "var variable_name = value",
+            "const variable_name = value"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is a valid method to add an element to a list in Python?",
+        "options": [
+            "list.append()",
+            "list.add()",
+            "list.insert()",
+            "Both 1 and 3"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "What is the output of the following Python code: 'print(5 // 2)'?",
+        "options": [
+            "2",
+            "2.5",
+            "3",
+            "5"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to create a new dictionary in Python?",
+        "options": [
+            "{}",
+            "[]",
+            "()",
+            "dict()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the correct way to declare a constant in JavaScript?",
+        "options": [
+            "const myVar = 10",
+            "let myVar = 10",
+            "var myVar = 10",
+            "final myVar = 10"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to catch errors in JavaScript?",
+        "options": [
+            "try...catch",
+            "throw...catch",
+            "error...catch",
+            "try...except"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to check if a value is NaN in JavaScript?",
+        "options": [
+            "isNaN()",
+            "NaN()",
+            "checkNaN()",
+            "Number.isNaN()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the 'document.getElementById()' function do in JavaScript?",
+        "options": [
+            "It returns the element with the given ID",
+            "It sets the ID of the document",
+            "It removes an element by ID",
+            "It retrieves all elements with the given class"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the purpose of the 'join()' method in JavaScript?",
+        "options": [
+            "It joins an array into a string",
+            "It joins two arrays together",
+            "It joins two strings together",
+            "It merges two objects"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to create a loop in Python?",
+        "options": [
+            "for",
+            "while",
+            "repeat",
+            "Both 1 and 2"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "What is the output of the following Python code: 'print(3 + 2 * 2)'?",
+        "options": [
+            "7",
+            "10",
+            "8",
+            "12"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to handle multiple exceptions in Python?",
+        "options": [
+            "try...except...else",
+            "try...except...finally",
+            "try...else",
+            "Both 1 and 2"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to install a package in Python?",
+        "options": [
+            "pip install package_name",
+            "python install package_name",
+            "pip get package_name",
+            "install package_name"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the correct way to write a comment in Python?",
+        "options": [
+            "# This is a comment",
+            "// This is a comment",
+            "/* This is a comment */",
+            "<!-- This is a comment -->"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the 'map()' function do in JavaScript?",
+        "options": [
+            "It applies a function to each element in an array",
+            "It maps the keys of an object",
+            "It filters elements in an array",
+            "It creates a new object"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct syntax for a constructor function in JavaScript?",
+        "options": [
+            "function MyConstructor() { this.value = 10; }",
+            "class MyConstructor { value = 10; }",
+            "function MyConstructor() { value = 10; }",
+            "new MyConstructor() { this.value = 10; }"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the 'filter()' function do in JavaScript?",
+        "options": [
+            "It filters elements in an array based on a condition",
+            "It maps elements in an array to a new value",
+            "It removes all elements from an array",
+            "It adds elements to an array"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct way to check the data type of a variable in JavaScript?",
+        "options": [
+            "typeof variable",
+            "checktype(variable)",
+            "type(variable)",
+            "variable.type()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to prevent a loop from running forever in Python?",
+        "options": [
+            "break",
+            "exit()",
+            "return",
+            "continue"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the output of the following Python code: 'print(4 % 3)'?",
+        "options": [
+            "1",
+            "0",
+            "3",
+            "4"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the correct way to define a tuple in Python?",
+        "options": [
+            "(1, 2, 3)",
+            "[1, 2, 3]",
+            "{1, 2, 3}",
+            "<1, 2, 3>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to open a file in Python?",
+        "options": [
+            "open()",
+            "file.open()",
+            "read()",
+            "openFile()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the correct way to handle file closing in Python?",
+        "options": [
+            "file.close()",
+            "close(file)",
+            "file.end()",
+            "end(file)"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the correct way to loop through a dictionary in Python?",
+        "options": [
+            "for key, value in dict.items()",
+            "for key in dict",
+            "for value in dict",
+            "for key, value in dict"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which HTML element is used to define the largest heading?",
+        "options": [
+            "<h1>",
+            "<heading>",
+            "<h6>",
+            "<head>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the 'padding' property do in CSS?",
+        "options": [
+            "It creates space inside an element's border",
+            "It creates space outside an element's border",
+            "It changes the font size of text",
+            "It controls the spacing between words"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the 'flex' property in CSS do?",
+        "options": [
+            "It makes the container's children flexible",
+            "It aligns items within a container",
+            "It adds spacing between elements",
+            "It changes the width of an element"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is the correct syntax to link an external CSS file to an HTML document?",
+        "options": [
+            "<link rel='stylesheet' href='style.css'>",
+            "<style src='style.css'>",
+            "<css href='style.css'>",
+            "<link rel='style' href='style.css'>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following HTML tags is used to define an unordered list?",
+        "options": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<list>"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What is the default value of the 'display' property in CSS?",
+        "options": [
+            "block",
+            "inline",
+            "none",
+            "flex"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which JavaScript method is used to add an element to the end of an array?",
+        "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following is used to convert a string to an integer in JavaScript?",
+        "options": [
+            "parseInt()",
+            "parseFloat()",
+            "toInteger()",
+            "Number()"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "What does the 'concat()' method do in JavaScript?",
+        "options": [
+            "It joins two or more arrays or strings",
+            "It copies an array",
+            "It creates a new array",
+            "It splits an array"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "type": "quiz",
+        "question": "Which of the following JavaScript methods is used to remove the last element of an array?",
+        "options": [
+            "pop()",
+            "shift()",
+            "unshift()",
+            "push()"
         ],
         "correct_option_id": 0
     }

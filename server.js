@@ -1,20 +1,20 @@
-const express = require('express');
+const express = require("express");
 const fs = require('fs');
 const path = require('path');
+const bot = require('./bot.js');
+const dotenv = require('dotenv');
+
+dotenv.config();  // Load environment variables from a .env file
+
 const app = express();
-require('dotenv').config();
-
 const PORT = process.env.PORT;
-
-require('./bot')
 
 // Middleware to parse JSON request bodies
 app.use(express.json());
 
 // Path to the polls.json file
-const pollsFilePath = path.join(__dirname, 'polls.json');
+const pollsFilePath = path.join(process.cwd(), 'polls.json');  // Changed to process.cwd() for better handling
 
-app.get("/", () => console.log("called api"))
 
 // Endpoint to add a new poll/quiz
 app.post('/addPoll', (req, res) => {
