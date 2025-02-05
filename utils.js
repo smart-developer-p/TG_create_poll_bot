@@ -1,3 +1,9 @@
+const path = require("path");
+const fs = require("fs");
+
+const USERS_FILE = path.join(process.cwd(), "bet", "db", 'users.json');
+const STATUS_FILE = path.join(process.cwd(), "bet", "db", 'status.json');
+
 exports.typingDelay = async (text) => {
     const delay = Math.min(text.length * 10, 500); // Delay based on text length (max 3 seconds)
     await new Promise((resolve) => setTimeout(resolve, delay));
@@ -13,26 +19,57 @@ exports.shouldReply = (ctx) => {
     );
 };
 
-exports.betLogic = (userBet, option) => {
-    // Random dice roll (1 to 6)
-    const diceRoll = Math.floor(Math.random() * 6) + 1;
 
-    let resultMessage = "";
-    let payout = 0;
-    let isWinner = false;
 
-    if (option === "low" && diceRoll <= 3) {
-        resultMessage = `You win! 🎲 Dice rolled: ${diceRoll}`;
-        payout = userBet * 2; // Example: double bet amount if low is correct
-        isWinner = true;
-    } else if (option === "high" && diceRoll > 3) {
-        resultMessage = `You win! 🎲 Dice rolled: ${diceRoll}`;
-        payout = userBet * 2; // Example: double bet amount if high is correct
-        isWinner = true;
-    } else {
-        resultMessage = `You lose! 🎲 Dice rolled: ${diceRoll}`;
-        payout = 0;
+exports.saveUsers = async (users) => {
+    try {
+        fs.writeFileSync(USERS_FILE, JSON.stringify(users, null, 2));
+    } catch (err) {
+        console.log(err.message);
     }
+};
 
-    return { resultMessage, payout, isWinner, diceRoll };
+exports.readUsers = async () => {
+    try {
+        if (fs.existsSync(USERS_FILE)) {
+            return JSON.parse(fs.readFileSync(USERS_FILE, "utf-8"));
+        } else {
+            return {};
+        }
+    } catch (err) {
+        console.log(err.message);
+        return {};
+    }
+};
+
+exports.saveStatus = async (status) => {
+    try {
+        fs.writeFileSync(STATUS_FILE, JSON.stringify(status, null, 2));
+    } catch (err) {
+        console.log(err.message);
+    }
+};
+
+exports.readStatus = async () => {
+    try {
+        if (fs.existsSync(STATUS_FILE)) {
+            return JSON.parse(fs.readFileSync(STATUS_FILE, "utf-8"));
+        } else {
+            return {};
+        }
+    } catch (err) {
+        console.log(err.message);
+        return {};
+    }
+};
+exports.generateMemo = (userId) => {
+    return `TON${userId}`;
+};
+
+exports.hexToBase64 = (hex) => {
+    // Convert hex string to a byte array
+    let bytes = new Uint8Array(hex.match(/.{1,2}/g).map(byte => parseInt(byte, 16)));
+
+    // Convert byte array to Base64
+    return btoa(String.fromCharCode.apply(null, bytes));
 };

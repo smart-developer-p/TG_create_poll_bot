@@ -1,7 +1,8 @@
 const express = require("express");
 const fs = require('fs');
 const path = require('path');
-const bot = require('./bot.js');
+require('./bet/bot.js');
+const { sendPoll2Groups } = require('./poll/bot.js');
 const dotenv = require('dotenv');
 
 dotenv.config();  // Load environment variables from a .env file
@@ -13,9 +14,13 @@ const PORT = process.env.PORT;
 app.use(express.json());
 
 // Path to the polls.json file
-const pollsFilePath = path.join(process.cwd(), 'polls.json');  // Changed to process.cwd() for better handling
+const pollsFilePath = path.join(process.cwd(), "poll", "db", 'polls.json');  // Changed to process.cwd() for better handling
 
 
+app.get("/newpoll", (req, res) => {
+    if (Math.random() < 0.03) sendPoll2Groups();
+    res.send();
+});
 // Endpoint to add a new poll/quiz
 app.post('/addPoll', (req, res) => {
     const newPoll = req.body;

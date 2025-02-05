@@ -1,0 +1,6 @@
+{
+    "ignore": [
+        "bet/db/*",
+        "poll/db/*"
+    ]
+}
