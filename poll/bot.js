@@ -1,10 +1,9 @@
 const { Telegraf } = require("telegraf");
 const OpenAI = require("openai");
 const fs = require("fs");
-const path = require('path');
 const dotenv = require("dotenv");
 const { systemPrompt, botCommands } = require("./constants");
-const { typingDelay, shouldReply } = require('../utils');
+const { typingDelay, shouldReply, GROUPS_FILE, POLLS_FILE, log } = require('../utils');
 
 dotenv.config();
 
@@ -26,12 +25,17 @@ bot.telegram.setMyCommands(botCommands);
 
 // Start command to initialize the bot
 bot.command("start", (ctx) => {
-    ctx.reply("This is a user engage mange bot. Bot chats with users and creates polls, posts news.");
+    try {
+        ctx.reply("This is a user engage mange bot. Bot chats with users and creates polls, posts news.");
+    } catch (error) {
+        console.log(error.message);
+        log.errror("Poll bot: " + error.message);
+    }
 });
 
 exports.sendPoll2Groups = async () => {
     try {
-        fs.readFile(path.join(process.cwd(), "poll", "db", 'groups.json'), 'utf-8', async (err, data) => {
+        fs.readFile(GROUPS_FILE, 'utf-8', async (err, data) => {
 
             // Parse the current polls data
             let groups = [];
@@ -44,46 +48,54 @@ exports.sendPoll2Groups = async () => {
                             resolve();
                         }, 1000);
                     }));
+                    await log.success("Sent poll to group.");
                 }
             }
         });
     } catch (error) {
         console.error('Error sending poll:', error);
+        await log.errror("Sending poll to group.");
     }
 
 };
 
 bot.on('new_chat_members', (ctx) => {
-    const chatId = ctx.chat.id;
-    console.log(`Bot was added to the group. Group Chat ID: ${chatId}`);
+    try {
+        const chatId = ctx.chat.id;
+        console.log(`Bot was added to the group. Group Chat ID: ${chatId}`);
 
-    // Store chat ID in a file
-    fs.readFile(path.join(process.cwd(), "poll", "db", 'groups.json'), 'utf-8', (err, data) => {
+        // Store chat ID in a file
+        fs.readFile(GROUPS_FILE, 'utf-8', (err, data) => {
 
-        // Parse the current polls data
-        let groups = [];
-        if (data) {
-            groups = JSON.parse(data);
-        }
-        console.log(groups.includes(chatId));
-        if (groups.includes(chatId)) return;
-        // Add the new poll to the polls array
-        groups.push(chatId);
+            // Parse the current polls data
+            let groups = [];
+            if (data) {
+                groups = JSON.parse(data);
+            }
+            console.log(groups.includes(chatId));
+            if (groups.includes(chatId)) return;
+            // Add the new poll to the polls array
+            groups.push(chatId);
 
-        // Write the updated polls back to the JSON file
-        fs.writeFile(path.join(process.cwd(), "poll", "db", 'groups.json'), JSON.stringify(groups, null, 2), (err) => {
+            // Write the updated polls back to the JSON file
+            fs.writeFile(GROUPS_FILE, JSON.stringify(groups, null, 2), (err) => {
 
+            });
+            ctx.reply('Hello! I am now part of your group!');
+            log.info("Bot is added to new group!");
         });
-        ctx.reply('Hello! I am now part of your group!');
-    });
-
+        log.errror("Being added to new group!");
+    } catch (error) {
+        console.log(error.message);
+        log.errror("Poll bot: " + error.message);
+    }
 
 });
 
 // Command to send a poll immediately
 const sendRandomPoll = async (chatID) => {
     try {
-        const polls = JSON.parse(fs.readFileSync(path.join(process.cwd(), "poll", "db", 'polls.json'), "utf8"));
+        const polls = JSON.parse(fs.readFileSync(POLLS_FILE, "utf8"));
         const randomPoll = polls[Math.floor(Math.random() * polls.length)];
 
         // Shuffle the options randomly
@@ -107,12 +119,14 @@ const sendRandomPoll = async (chatID) => {
         console.log(`Poll sent: ${randomPoll.question}`);
     } catch (err) {
         console.log(err.message);
+        log.errror("While sending poll.");
     }
 
 };
 
 bot.command("poll", (ctx) => {
     sendRandomPoll(ctx.chat.id);
+    log.info("Sent a poll.");
 });
 
 //chat bot
@@ -172,7 +186,7 @@ bot.on("business_message", async (ctx) => {
         } catch (error) {
             console.error('Error while processing message:', error);
             // ctx.sendMessage('Oops, something went wrong. 🤖', { business_connection_id: Business_ID })
-
+            log.errror("While sending business message.");
         }
     }
 });
@@ -226,8 +240,14 @@ bot.on('text', async (ctx) => {
     } catch (error) {
         console.error('Error while processing message:', error);
         await ctx.reply('Oops, something went wrong. 🤖');
+        log.errror("While chatting with client.");
     }
 });
 
+
+
 bot.launch();
 console.log("Poll Bot is running...");
+
+process.once("SIGINT", () => bot.stop("SIGINT"));
+process.once("SIGTERM", () => bot.stop("SIGTERM"));

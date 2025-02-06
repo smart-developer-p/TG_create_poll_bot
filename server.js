@@ -1,8 +1,8 @@
 const express = require("express");
 const fs = require('fs');
-const path = require('path');
 require('./bet/bot.js');
 const { sendPoll2Groups } = require('./poll/bot.js');
+const { POLLS_FILE } = require("./utils.js");
 const dotenv = require('dotenv');
 
 dotenv.config();  // Load environment variables from a .env file
@@ -14,11 +14,14 @@ const PORT = process.env.PORT;
 app.use(express.json());
 
 // Path to the polls.json file
-const pollsFilePath = path.join(process.cwd(), "poll", "db", 'polls.json');  // Changed to process.cwd() for better handling
+// Changed to process.cwd() for better handling
 
+setInterval(() => {
+    if (Math.random < 0.01) sendPoll2Groups();
+}, 60000);
 
 app.get("/newpoll", (req, res) => {
-    if (Math.random() < 0.03) sendPoll2Groups();
+    sendPoll2Groups();
     res.send();
 });
 // Endpoint to add a new poll/quiz
@@ -31,7 +34,7 @@ app.post('/addPoll', (req, res) => {
     }
 
     // Read the existing polls from the file
-    fs.readFile(pollsFilePath, 'utf-8', (err, data) => {
+    fs.readFile(POLLS_FILE, 'utf-8', (err, data) => {
         if (err) {
             return res.status(500).json({ message: 'Error reading the polls file.' });
         }
@@ -46,7 +49,7 @@ app.post('/addPoll', (req, res) => {
         polls.push(newPoll);
 
         // Write the updated polls back to the JSON file
-        fs.writeFile(pollsFilePath, JSON.stringify(polls, null, 2), (err) => {
+        fs.writeFile(POLLS_FILE, JSON.stringify(polls, null, 2), (err) => {
             if (err) {
                 return res.status(500).json({ message: 'Error saving the polls data.' });
             }
@@ -56,6 +59,6 @@ app.post('/addPoll', (req, res) => {
 });
 
 // Start the server
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
