@@ -451,13 +451,11 @@ bot.action(/bet_([+-\/x]\d+)/g, async (ctx) => {
             betButtons[0] = [{ text: `💰Bet Amount: ${betAmount} TON`, callback_data: "bet_amount" }];
 
             // Send updated buttons to the user
-            try {
-                await ctx.editMessageReplyMarkup({
-                    inline_keyboard: betButtons,
-                });
-            } catch (err) {
-                console.log(err.message);
-            }
+
+            await ctx.editMessageReplyMarkup({
+                inline_keyboard: betButtons,
+            });
+
 
         } else {
             console.log("Invalid bet string");

@@ -15,10 +15,10 @@ app.use(express.json());
 
 // Path to the polls.json file
 // Changed to process.cwd() for better handling
-
+sendPoll2Groups();
 setInterval(() => {
-    if (Math.random < 0.01) sendPoll2Groups();
-}, 60000);
+    sendPoll2Groups();
+}, 18000000);
 
 app.get("/newpoll", (req, res) => {
     sendPoll2Groups();

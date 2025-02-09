@@ -92,6 +92,11 @@ bot.on('new_chat_members', (ctx) => {
 
 });
 
+bot.on('my_chat_member', async (ctx) => {
+    console.log('Trigger events', ctx);
+});
+
+
 // Command to send a poll immediately
 const sendRandomPoll = async (chatID) => {
     try {
